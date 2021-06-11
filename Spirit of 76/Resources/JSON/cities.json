@@ -1,0 +1,67 @@
+{
+    "records":[
+        {
+            "jsonId":1,
+            "name":"Boston",
+            "sortValue":"Boston",
+            "imageName":"img_Boston.png",
+            "stateId":5
+        },
+        {
+            "jsonId":2,
+            "name":"Philadelphia",
+            "sortValue":"Philadelphia",
+            "imageName":"img_Philadelphia.png",
+            "stateId":10
+        },
+        {
+            "jsonId":3,
+            "name":"New York City",
+            "sortValue":"New York City",
+            "imageName":"img_New_York_City.png",
+            "stateId":4
+        },
+        {
+            "jsonId":4,
+            "name":"Trenton",
+            "sortValue":"Trenton",
+            "imageName":"img_Trenton.png",
+            "stateId":3
+        },
+        {
+            "jsonId":5,
+            "name":"Yorktown",
+            "sortValue":"Yorktown",
+            "imageName":"img_Yorktown.png",
+            "stateId":1
+        },
+        {
+            "jsonId":6,
+            "name":"Lexington",
+            "sortValue":"Lexington",
+            "imageName":"img_Lexington.png",
+            "stateId":5
+        },
+        {
+            "jsonId":7,
+            "name":"Concord",
+            "sortValue":"Concord",
+            "imageName":"img_Concord.png",
+            "stateId":5
+        },
+        {
+            "jsonId":8,
+            "name":"Saratoga",
+            "sortValue":"Saratoga",
+            "imageName":"img_Saratoga.png",
+            "stateId":4
+        },
+        {
+            "jsonId":9,
+            "name":"West Point",
+            "sortValue":"West Point",
+            "imageName":"img_West_Point.png",
+            "stateId":4
+        }
+    ]
+}

@@ -1,0 +1,368 @@
+{
+    "records":[
+        {
+            "jsonId":1,
+            "signerId":61,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"Graduated from Harvard University, class of 1756, at the age of 20."
+        },
+        {
+            "jsonId":2,
+            "signerId":61,
+            "title":"Self Education",
+            "sortValue":"Self Education",
+            "notes":"After Harvard, having chosen the law as a profession, he began his studies with an eminent barrister in Worchester by the name of Putman. There he had the advantage of sound legal instruction, and through Mr. Putnam he became acquainted with many distinguished public men, among whom was Mr. Gridley, the Attorney General. Their first interview awakened sentiments of mutual regard, and young Adams was allowed the free use of Mr. Gridley's extensive library, a privilege of great value in those day. It was a rich treasure thrown open to him, and its value was soon apparent in the expansion of he general knowledge. He was admitted to the bar in 1758, and commenced practice in Braintree. "
+        },
+        {
+            "jsonId":3,
+            "signerId":116,
+            "title":"Self Education",
+            "sortValue":"Self Education",
+            "notes":"Young Bartlett lacked the advantage of a collegiate education, but he improved an opportunity for acquiring some knowledge of Greek and Latin, which was offered to him by the family of a relative, Doctor Webster. He chose for a livelihood the practice of the medical profession, and commenced the study of the science when he was sixteen years old. His opportunities for acquiring knowledge from books were limited, but the active energies of his mind supplied the deficiency, in a measure, and he passed an examination with honor at the close of his studies."
+        },
+        {
+            "jsonId":4,
+            "signerId":73,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"In 1754, he graduated at the age of seventeen."
+        },
+        {
+            "jsonId":5,
+            "signerId":62,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"Mr. Adam's father resolved to give him a liberal education. After a preparatory course of study, he entered him at Harvard College, where in 1740, at the age of eighteen, he took his degree of A.B. He was uncommonly sedate, and very assiduous in the pursuit of knowledge while a pupil."
+        },
+        {
+            "jsonId":6,
+            "signerId":96,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"Young Paine entered Harvard College at the age of fourteen years, and graduated with the usual honors. For a time after leaving college, he taught school."
+        },
+        {
+            "jsonId":7,
+            "signerId":70,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"Mr. Gerry's father was a merchant in extensive business, and he resolved to give his son an excellent education. When his preparatory studies were concluded, he entered Harvard College, and graduated with the title of A.B. in 1762."
+        },
+        {
+            "jsonId":8,
+            "signerId":79,
+            "title":"Self Education",
+            "sortValue":"Self Education",
+            "notes":"The opportunities for acquiring education at the time of Mr. Hopkins' childhood were rare, but his vigorous intellect, in a measure, became a substitute for these opportunities, and he became self-taught in the truest sense of the word."
+        },
+        {
+            "jsonId":9,
+            "signerId":68,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"Mr. Ellery's father paid particular attention to his early education, and when qualified, he placed him in Harvard College, where he was distinguished as a close student, particularly of the Greek and Latin languages. He graduated in 1747, at the age of twenty years, with the most honorable commendations of the faculty."
+        },
+        {
+            "jsonId":10,
+            "signerId":103,
+            "title":"Self Education",
+            "sortValue":"Self Education",
+            "notes":"Mr. Sherman's early education was exceedingly limited, but with a naturally strong and active mind, he acquired a large stock of knowledge from books, during his apprenticeship. It is said that while at work on his bench, he had a book so placed that he could read when it was not necessary for his eyes to be upon his work. He thus acquired a good knowledge of mathematics, and he made astronomical calculations for an almanac that was published in New York when he was only twenty-seven years old.\n\nNot long after he settled in New Milford, he formed a partnership with his brother in a mercantile business, but all the while was very studious. He turned his attention to the study of law, during his leisure hours; and so proficient did he become in legal knowledge, that he was admitted to the bar in December 1754. Mr. Sherman had no instructor or guide in the study of law, neither had he any books but such as he borrowed, yet he became one of the most profound jurists of his day."
+        },
+        {
+            "jsonId":11,
+            "signerId":103,
+            "title":"Yale",
+            "sortValue":"Yale",
+            "notes":"In 1765, as treasurer of Yale, he received an honorary degree of A.M."
+        },
+        {
+            "jsonId":12,
+            "signerId":81,
+            "title":"Basic Education",
+            "sortValue":"Basic Education",
+            "notes":"His father was an industrious farmer, and the only education he was able to allow his son was that to be derived from the common schools in his neighborhood. Samuel was very studious, and the active energies of his mind surmounted many obstacles that stood in the way of intellectual advancement.\n\nHe acquired a tolerable knowledge of the Latin language, and at the age of twenty-two years he commenced the study of law. Like Sherman, he was obliged to pursue it with borrowed books and without an instructor. He succeeded however, in mastering its difficulties, and in obtaining a good practice in his native town before he was thirty years of age."
+        },
+        {
+            "jsonId":13,
+            "signerId":111,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"Mr. Williams entered Harvard College at the age of sixteen years, and at twenty, he graduated with honorable distinction in 1751. He then commenced theological studies with his father until leaving to fight in the French War."
+        },
+        {
+            "jsonId":14,
+            "signerId":114,
+            "title":"Yale",
+            "sortValue":"Yale",
+            "notes":"Mr. Wolcott entered Yale College at the age of seventeen years, and graduated with the usual honors in 1747."
+        },
+        {
+            "jsonId":15,
+            "signerId":114,
+            "title":"Medical",
+            "sortValue":"Medical",
+            "notes":"Returning from the French War, he turned his attention to the study of medicine under his distinguished uncle, Dr. Alexander Wolcott; but when he completed his studies, he was appointed sheriff of the newly organized county of Litchfield."
+        },
+        {
+            "jsonId":16,
+            "signerId":69,
+            "title":"Self-Education",
+            "sortValue":"Self-Education",
+            "notes":"Mr. Floyd's father gave him every opportunity for acquiring useful knowledge. He had scarcely closed his studies before the death of his father called him to the supervision of the estate, and he performed his duties with admirable skill and fidelity."
+        },
+        {
+            "jsonId":17,
+            "signerId":86,
+            "title":"Yale",
+            "sortValue":"Yale",
+            "notes":"After completing a preparative course of study, he entered Yale College, ad New Haven, where he graduated with distinguished honor in 1737."
+        },
+        {
+            "jsonId":18,
+            "signerId":85,
+            "title":"Westminster",
+            "sortValue":"Westminster",
+            "notes":"Mr. Lewis received a portion of his education in Scotland with another relative, and became proficient not only in his native tongue (the ancient Briton) but in the Gaelic language, then mostly used in Scotland. His uncle, Dean of St. Paul's in London, afterward sent him to Westminster, where he obtained a good education."
+        },
+        {
+            "jsonId":19,
+            "signerId":91,
+            "title":"Yale",
+            "sortValue":"Yale",
+            "notes":"At the age of sixteen years, he entered Yale College, and under the presidency of the excellent Rev. Mr. Clapp, he received his education. He graduated with the usual honors at twenty, and returned to the supervision of his large estate."
+        },
+        {
+            "jsonId":20,
+            "signerId":105,
+            "title":"New Jersey College",
+            "sortValue":"New Jersey College",
+            "notes":"Mr. Stockton pursued his studies, preparatory to a collegiate course, at an academy in Maryland, and after two years thus spent, he entered New Jersey college, then located at Newark. He graduated in 1748, and was placed as a student of law, under the Honorable David Ogden, of Newark."
+        },
+        {
+            "jsonId":21,
+            "signerId":113,
+            "title":"University of Edinburgh",
+            "sortValue":"University of Edinburgh",
+            "notes":"Mr. Witherspoon's father took great pains to have the early education of his son based upon sound moral and religious principles, and early determined to fit him for the gospel ministry. His primary education was received in a school at Haddington, and at the age of fourteen years he was placed in the University of Edinburgh. He was a very diligent student, and, to the delight of his father, his mind was specially directed toward sacred literature. He went through a regular theological course of study, and at the age of twenty-two years he graduated, a licensed preacher."
+        },
+        {
+            "jsonId":22,
+            "signerId":80,
+            "title":"College of Philadelphia",
+            "sortValue":"College of Philadelphia",
+            "notes":"Mr. Hopkinson's mother imparted to him his primary education until he was fitted for the college of Philadelphia, wherein he was placed. On leaving that institution, he commenced the study of law, and was admitted to practice in 1765. He went to England the same year for the purpose of visiting his relatives and improving his mind."
+        },
+        {
+            "jsonId":23,
+            "signerId":92,
+            "title":"Tutelage",
+            "sortValue":"Tutelage",
+            "notes":"Mr. Morris was placed in a school at Philadelphia, but the deficiencies of his teacher allowed him but slight advantage in the obtainment of knowledge. On being chided by his father for his tardiness in learning, he remarked, 'Why, sir, I have learned all that he could teach me.'"
+        },
+        {
+            "jsonId":24,
+            "signerId":101,
+            "title":"Preparatory Studies",
+            "sortValue":"Preparatory Studies",
+            "notes":"The father of Benjamin Rush died when he was only six years old, and he and a brother were left entirely to the care of his mother. She was anxious to give Benjamin a classical education, but the earnings from her small farm did not supply her with the adequate means. Intent upon her purpose, she sold her land and moved into Philadelphia, where she commenced some commercial pursuit. She was successful; and her wish to give her eldest son a liberal education, was gratified. At the age of nine years he was placed under the care of the Rev. Dr. Findlay, who was the principal of an academy at Nottingham, in Maryland."
+        },
+        {
+            "jsonId":25,
+            "signerId":101,
+            "title":"Princeton College",
+            "sortValue":"Princeton College",
+            "notes":"After completing his preparatory studies, young Rush entered Princeton College in 1759, where he took his degree in 1760, at the age of sixteen years."
+        },
+        {
+            "jsonId":26,
+            "signerId":101,
+            "title":"Medical Studies",
+            "sortValue":"Medical Studies",
+            "notes":"The study of the law was the voluntary choice of young Rush, but by the advice of Dr. Findlay, he selected the practice of medicine as a profession, and placed himself under the direction of the celebrated Doctor Redman, of Philadelphia. In 1766 he went to England with the view of professional improvement, where he remained two years, attending the lectures at the best hospitals and medical schools in London. In the summer of 1768, he went to Paris, where he added much to his stock of knowledge; and in the autumn of that year he returned to America, bearing the title of 'Doctor of Medicine,' for which a diploma was conferred at Edinburgh."
+        },
+        {
+            "jsonId":27,
+            "signerId":2,
+            "title":"Early Education",
+            "sortValue":"Early Education",
+            "notes":"The parents of Benjamin wished him to be a minister of the gospel, and they began to educate him with that end in view, but their slender means were not adequate for the object, and the intention was abandoned. He was kept at a common school for a few years, and then taken into the service of his father. The business did not please the boy, and he was entered, on probation, with a cutler. The fee for his admission to apprenticeship was too high (like England at the time, one had to pay a fee), and he abandoned that pursuit also, and was put under the instruction of an elder brother, who was a printer."
+        },
+        {
+            "jsonId":28,
+            "signerId":63,
+            "title":"College of William and Mary",
+            "sortValue":"College of William and Mary",
+            "notes":"Carter Braxton was educated at the college of William and Mary."
+        },
+        {
+            "jsonId":29,
+            "signerId":64,
+            "title":"Jesuit and Legal Training",
+            "sortValue":"Jesuit and Legal Training",
+            "notes":"When Charles was only eight years of age, his father, who was a Roman Catholic, took him to France, and entered him as a student in the Jesuit College at St. Omer's. There he remained six years, and then went to another Jesuit seminary of learning, at Rheims. After remaining there one year, he entered the College of Louis le Grand, whence he graduated at the age of seventeen years, and then commenced the study of law at Bourges. He remained at Bourges one year, and then moved to Paris, where he continued until 1757. He then went to London for the purpose of continuing his law studies there. He took apartments in the Inner Temple, where he remained until 1765, and then returned to Maryland, a most finished scholar and well-bred gentleman."
+        },
+        {
+            "jsonId":30,
+            "signerId":72,
+            "title":"Yale University",
+            "sortValue":"Yale University",
+            "notes":"Lyman Hall's father as possessed of a competent fortune, and he gave his son an opportunity for acquiring a good education. He placed him in Yale College, at the age of sixteen years, whence he graduated after four years' study. He chose the practice of medicine as a profession, and he entered upon the necessary studies with great ardor, and pursued them with perseverance."
+        },
+        {
+            "jsonId":31,
+            "signerId":74,
+            "title":"William and Mary",
+            "sortValue":"William and Mary",
+            "notes":"Mr. Harrison was placed by his father in the college of William and Mary, with a view of giving him a thorough classical education. He was there at the time of his father's decease, which was sudden and awful (his father and two of his four sisters were instantly struck dead by lightning, during a violent thunder storm, in their mansion house at Berkley); and having had a dispute with one of the professors, he left the institution before the close of his term, and never returned to get his degree. Being the eldest of six sons, the management of the estate of his father devolved on him at his decease, and, although then a minor, he performed his duties with great fidelity and skill."
+        },
+        {
+            "jsonId":32,
+            "signerId":77,
+            "title":"Classical Education",
+            "sortValue":"Classical Education",
+            "notes":"Thomas Hayward was born in St. Luke's parish, South Carolina, in the year 1746. His father, Colonel Dame Hayward was one of the wealthiest planters in the Province, and fully appreciating the advantages of education, he placed his son Thomas in the best classical school in that region. He was a thoughtful and industrious student; and so readily did he master the Latin, that he read with fluency the works of the Roman historians and poets, in that language."
+        },
+        {
+            "jsonId":33,
+            "signerId":76,
+            "title":"Princeton",
+            "sortValue":"Princeton",
+            "notes":"Mr. Hewes was educated at the college in Princeton, and at the close of his studies he was apprenticed to a merchant in Philadelphia, to qualify him for a commercial life. On the termination of his apprenticeship, his father furnished him with a little money capital, to which he added the less fleeting capital of a good reputation, and he commenced mercantile business on his own account. His business education had been thorough, and he pursued the labors of commerce with such skill and success, that in a few years he amassed an ample fortune."
+        },
+        {
+            "jsonId":34,
+            "signerId":78,
+            "title":"Harvard",
+            "sortValue":"Harvard",
+            "notes":"Young William was placed under the charge of Mr. Lovell, then one of the most eminent instructors in the colony of Massachusetts Bay. Having completed his preparatory studies, William was entered a pupil at Harvard University, where he remained a close and industrious student for three years, and in 1760 he graduated with distinguished honors.\n\nHis father designed him for the clerical profession, but as he evinced a decided preference for the bar, he was placed as a student in the office of the celebrated James Otis. On the completion of his studies, perceiving that the profession was quite full of practicians [sic] in Massachusetts, he went to North Carolina, where many of his Scotch relations resided, and began business in that province in 1767."
+        },
+        {
+            "jsonId":35,
+            "signerId":82,
+            "title":"William and Mary College",
+            "sortValue":"William and Mary College",
+            "notes":"Thomas entered a grammar school at the age of five years, and when nine years old he commenced the study of the classics with a Scotch clergyman named Douglas. On the death of his father, the Reverend Mr. Maury became his preceptor; and in the spring of 1760, he entered William and Mary College, where he remained two years. From Doctor William Small, a professor of mathematics in the college, he received his first philosophical teachings, and the bias of his mind concerning subjects of scientific investigation seemed to have received its initial impetus from that gentleman. Through his influence, in 1762, young Jefferson was admitted as a student-at-law in the office of George Wythe, the intimate friend of Governor Fauquier, at whose table our subject became a welcome guest."
+        },
+        {
+            "jsonId":36,
+            "signerId":84,
+            "title":"Tutored",
+            "sortValue":"Tutored",
+            "notes":"Francis Lightfoot Lee, a younger brother of Richard Henry Lee, was born in Westmoreland county, Virginia, on the fourteenth day of October, 1734. He was too young when his father died to be sent abroad to be educated, but was favored with every advantage in the way of learning which the colony afforded. He was placed at an early age under the care of the Reverend Doctor Craig, a Scotch clergyman of eminent piety and learning. His excellent tutor not only educated his head but his heart, and laid the foundation of character, upon which the noble superstructure, which his useful life exhibited, was reared."
+        },
+        {
+            "jsonId":37,
+            "signerId":83,
+            "title":"Studying Abroad",
+            "sortValue":"Studying Abroad",
+            "notes":"According to the fashion of the time in the 'Old Dominion,' his father sent him to England, at an early age to be educated. He was placed in a school at Wakefield, in Yorkshire, where he soon became marked as a thoughtful and industrious student. Ancient history, especially that part which treats of the republics of the old world, engaged his close attention; and he read with avidity, every scrap of history of that character, which fell in his way. Thus he was early indoctrinated with the ideas of republicanism, and before the season of adolescence had passed, he was warmly attached to those principles of civil liberty, which he afterward so manfully contended for."
+        },
+        {
+            "jsonId":38,
+            "signerId":87,
+            "title":"Columbia College",
+            "sortValue":"Columbia College",
+            "notes":"Mr. Livingston was educated at King's (now Columbia) College. He graduated with honor in 1764, at the age of seventeen years, and then entered upon the study of the law, in New York, under Mr. Smith, a barrister of considerable eminence there, and subsequently Chief Justice of Canada. He was also a historian of New York."
+        },
+        {
+            "jsonId":39,
+            "signerId":88,
+            "title":"Cambridge, England",
+            "sortValue":"Cambridge, England",
+            "notes":"Thomas Lynch, junior, was sent to England, to be educated, at the age of thirteen years. He had previously received a good academical [sic] education, at Georgetown, in South Carolina. In England he was placed in Eton School, that seminary of preparation for higher instruction, in which, for a long period, many eminent men were educated. After completing his preparatory studies there, he entered the University of Cambridge, where he took his degree, and he left the institution bearing the highest respect of the tutors, because of his studious and virtuous career while there."
+        },
+        {
+            "jsonId":40,
+            "signerId":90,
+            "title":"Cambridge University",
+            "sortValue":"Cambridge University",
+            "notes":"Arthur Middleton was born at Middleton Place, the residence of his father, in South Carolina, in 1743. His father, Henry Middleton, was of English descent, and a wealthy planter, and he gave his son every opportunity for mental and moral culture which the Province afforded, until he arrived at a proper age to be sent to England for a thorough education. This was a prevailing custom among the men of wealth in the southern provinces, previous to the Revolution, and their sons consequently became political and social leaders, on account of their superior education.\n\n Arthur was sent to England, when he was about twelve years of age, and was placed in a school at Hackney (Several of the Southern members of Congress received their education at this school, preparatory to their entering the college at Cambridge.). At fourteen he was transferred to a school in Westminster, where he remained four years, and then entered the University at Cambridge. While there, he shunned the society of the frivolent [sic] and dissipated, and became a very close and thoughtful student. He remained at Cambridge four years, and at the age of twenty-two, he graduated with distinguished honors. He carried with him, from that institution, the sincere respect and esteem of professors and students."
+        },
+        {
+            "jsonId":41,
+            "signerId":93,
+            "title":"Home Schooled",
+            "sortValue":"Home Schooled",
+            "notes":"Mr. Morton's step-father, being highly educated, and a good practical surveyor, he instructed young Morton in mathematics, as well as in all the common branches of a good education. His mind was of unusual strength, and at an early age it exhibited traits of sound maturity."
+        },
+        {
+            "jsonId":42,
+            "signerId":94,
+            "title":"Cambridge University",
+            "sortValue":"Cambridge University",
+            "notes":"Thomas was the oldest son of his parents, and his father in conformity to the fashion of the times among the opulent of that province, sent him to England at the age of fourteen years to be educated. He was placed in a distinguished private school not far from London, and after completing a preparatory course of studies there, he went to Cambridge and was entered a member of Trinity College. He there enjoyed the private instructions of the celebrated Dr. Proteus, afterward the Bishop of London. He remained there, a close and diligent student until 1761, when he returned to America."
+        },
+        {
+            "jsonId":43,
+            "signerId":95,
+            "title":"Philadelphia College",
+            "sortValue":"Philadelphia College",
+            "notes":"Mr. Paca's early moral and intellectual training was carefully attended to, and at a proper age he was placed in the Philadelphia College, whence he graduated, after a course of arduous and profitable study, with great credit to himself He then commenced the study of the law with Mr. Hammond and Mr. Hall, of Annapolis, and Samuel Chase, his subsequent Congressional colleague, was a fellow student."
+        },
+        {
+            "jsonId":44,
+            "signerId":97,
+            "title":"Common County School",
+            "sortValue":"Common County School",
+            "notes":"John Penn's father, Moses Penn, seemed to be utterly neglectful of the intellectual cultivation of his son; and, although he possessed the means of giving him a good English education, he allowed him no other opportunity than that which two or three years' tuition in a common county school in his neighborhood afforded. Mr. Penn died when his son was about eighteen years of age, and left him the sole possessor of a competent, though not large estate."
+        },
+        {
+            "jsonId":45,
+            "signerId":97,
+            "title":"Self-Educated",
+            "sortValue":"Self-Educated",
+            "notes":"Young Penn was a relative of the celebrated Edmund Pendleton, and resided near him. That gentleman kindly gave him the free use of his extensive library, and this opportunity for acquiring knowledge was industriously improved. He resolved to qualify himself for the profession of the law, and strong in his faith that he should be successful, he entered upon a course of legal study, guided and instructed only by his own judgment and good common sense. He succeeded admirably, and at the age of twenty-one years, he was admitted to the bar, in his native county. His profession soon developed a native eloquence before inert and unsuspected, and by it, in connection with close application to business, he rapidly soared to eminence. His eloquence was of that sweet persuasive kind, which excites all the tender emotions of the soul, and possesses a controlling power at times irresistible."
+        },
+        {
+            "jsonId":46,
+            "signerId":98,
+            "title":"Reverend Doctor Allison",
+            "sortValue":"Reverend Doctor Allison",
+            "notes":"George was placed in a school of considerable repute at Chester, in Pennsylvania, where he made much progress in Latin and Greek, his father having previously instructed him in all the common branches of a good English education. He was afterward placed under the care of the Reverend Doctor Allison, who at various times had charge of several pupils, who were afterward members of the Continental Congress, or held other high official stations."
+        },
+        {
+            "jsonId":47,
+            "signerId":100,
+            "title":"Classical Education",
+            "sortValue":"Classical Education",
+            "notes":"George Ross' father was a highly esteemed minister of the Episcopal Church in New Castle, Delaware, and he educated his son with much care, having himself experienced the great advantage of a liberal education. He soon became very proficient in Latin and Greek, and at the age of eighteen years entered, as a student, the law office of his brother, then a respectable member of the Philadelphia bar. He was admitted to practice at the age of twenty-one years, and fixed his residence in Lancaster, where he married a highly respectable young woman named Lawler."
+        },
+        {
+            "jsonId":48,
+            "signerId":102,
+            "title":"Law School",
+            "sortValue":"Law School",
+            "notes":"Alter receiving a good English and classical education, young Rutledge commenced the study of law with his elder brother, John, who was then a distinguished member of the Charleston bar. As a finishing stroke in his legal education, preparatory to his admission to the bar, he was sent to England at the age of twenty, and entered as a student at the Inner Temple, London, where he had an opportunity of witnessing the forensic eloquence of those master spirits of the times, Mansfield, Wedderburn, Thurlow, Dunning, Chatham and Camden. He returned to Charleston about the close of 1772, was admitted to the bar, and commenced practice early in 1773."
+        },
+        {
+            "jsonId":49,
+            "signerId":104,
+            "title":"College of Philadelphia",
+            "sortValue":"College of Philadelphia",
+            "notes":"James was his father's second son, and, discovering a strong intellect at an early age, his father determined to give him a liberal education. For this purpose he placed him under the charge of Reverend Doctor Allison, provost of the college of Philadelphia. He there acquired a knowledge of Latin and Greek, and what proved more useful to him, practical surveying."
+        },
+        {
+            "jsonId":50,
+            "signerId":106,
+            "title":"Classical Education",
+            "sortValue":"Classical Education",
+            "notes":"Thomas Stone, after receiving a good English education, and some knowledge of the classics, he entered upon the study of the law, and at the age of twenty-one years he commenced its practice. Where he began business in his profession, is not certainly known, but it is supposed to have been in Annapolis."
+        },
+        {
+            "jsonId":51,
+            "signerId":109,
+            "title":"Self Educated",
+            "sortValue":"Self Educated",
+            "notes":"George Walton's early education was extremely limited, and at the age of fourteen years he was apprenticed to a carpenter. He was possessed of an inquiring mind, and an ardent thirst for knowledge, but his master's authority hung like a millstone about the neck of his aspirations. He was an ignorant man, and looked upon a studious boy as an idle one, considering the time spent in reading as wasted. With this feeling, he would allow young Walton no time to read by day, nor lights to study by night; but the ardent youth overcame these difficulties, and by using torch-wood for light, he spent his evenings in study. Persevering in this course, he ended his apprenticeship with a well-stored mind. He then moved into the province of Georgia, and commenced the study of law in the office of Mr. Young, an eminent barrister in that colony."
+        },
+        {
+            "jsonId":52,
+            "signerId":112,
+            "title":"Law School",
+            "sortValue":"Law School",
+            "notes":"James Wilson was born in Scotland in 1742, and emigrated to this country in 1766. He had received his education under some of the best teachers in Edinburgh, and he brought with him such strong recommendations to eminent citizens of Philadelphia, that he soon obtained a situation as an assistant teacher in the Philadelphia college, then under the supervision of the Reverend Doctor Peters. In the course of a few months he commenced the study of law in the office of the eminent John Dickenson, and after two years' close application, he established himself in business, first in Reading and afterward in Carlisle, Pennsylvania. He finally fixed his permanent residence in Philadelphia. He rapidly rose to eminence in his profession, and became distinguished as an ardent supporter of the republican cause whenever an opportunity presented itself."
+        }
+    ]
+}

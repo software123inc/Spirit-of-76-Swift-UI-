@@ -1,0 +1,95 @@
+{
+    "records":[
+        {
+            "jsonId":1,
+            "name":"Virginia",
+            "sortValue":"Virginia",
+            "imageName":"virginia",
+            "abbreviation":"VA"
+        },
+        {
+            "jsonId":2,
+            "name":"Delaware",
+            "sortValue":"Delaware",
+            "imageName":"delaware",
+            "abbreviation":"DE"
+        },
+        {
+            "jsonId":3,
+            "name":"New Jersey",
+            "sortValue":"New Jersey",
+            "imageName":"new_jersey",
+            "abbreviation":"NJ"
+        },
+        {
+            "jsonId":4,
+            "name":"New York",
+            "sortValue":"New York",
+            "imageName":"new_york_colony",
+            "abbreviation":"NY"
+        },
+        {
+            "jsonId":5,
+            "name":"Massachusetts",
+            "sortValue":"Massachusetts",
+            "imageName":"massachusetts_colony",
+            "abbreviation":"MA"
+        },
+        {
+            "jsonId":6,
+            "name":"New Hampshire",
+            "sortValue":"New Hampshire",
+            "imageName":"new_hampshire",
+            "abbreviation":"NH"
+        },
+        {
+            "jsonId":7,
+            "name":"Rhode Island",
+            "sortValue":"Rhode Island",
+            "imageName":"rhode_island",
+            "abbreviation":"RI"
+        },
+        {
+            "jsonId":8,
+            "name":"Connecticut",
+            "sortValue":"Connecticut",
+            "imageName":"connecticut",
+            "abbreviation":"CT"
+        },
+        {
+            "jsonId":9,
+            "name":"Maryland",
+            "sortValue":"Maryland",
+            "imageName":"maryland",
+            "abbreviation":"MD"
+        },
+        {
+            "jsonId":10,
+            "name":"Pennsylvania",
+            "sortValue":"Pennsylvania",
+            "imageName":"pennsylvania",
+            "abbreviation":"PA"
+        },
+        {
+            "jsonId":11,
+            "name":"North Carolina",
+            "sortValue":"North Carolina",
+            "imageName":"north_carolina",
+            "abbreviation":"NC"
+        },
+        {
+            "jsonId":12,
+            "name":"South Carolina",
+            "sortValue":"South Carolina",
+            "imageName":"south_carolina",
+            "abbreviation":"SC"
+        },
+        {
+            "jsonId":13,
+            "name":"Georgia",
+            "sortValue":"Georgia",
+            "imageName":"georgia",
+            "abbreviation":"GA"
+        }
+    ]
+}

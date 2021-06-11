@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,23 @@
 		C7E2DF2526730B6300D098FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF2426730B6300D098FE /* Preview Assets.xcassets */; };
 		C7E2DF2726730B6300D098FE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF2626730B6300D098FE /* Persistence.swift */; };
 		C7E2DF2A26730B6300D098FE /* Spirit_of_76.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF2826730B6300D098FE /* Spirit_of_76.xcdatamodeld */; };
+		C7E2DF4126730CB500D098FE /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3526730CB400D098FE /* cities.json */; };
+		C7E2DF4226730CB500D098FE /* signerWritings.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3626730CB400D098FE /* signerWritings.json */; };
+		C7E2DF4326730CB500D098FE /* topics.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3726730CB400D098FE /* topics.json */; };
+		C7E2DF4426730CB500D098FE /* signers.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3826730CB400D098FE /* signers.json */; };
+		C7E2DF4526730CB500D098FE /* signerProfessions.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3926730CB500D098FE /* signerProfessions.json */; };
+		C7E2DF4626730CB500D098FE /* writings.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3A26730CB500D098FE /* writings.json */; };
+		C7E2DF4726730CB500D098FE /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3B26730CB500D098FE /* countries.json */; };
+		C7E2DF4826730CB500D098FE /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3C26730CB500D098FE /* quotes.json */; };
+		C7E2DF4926730CB500D098FE /* signerEducation.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3D26730CB500D098FE /* signerEducation.json */; };
+		C7E2DF4A26730CB500D098FE /* states.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3E26730CB500D098FE /* states.json */; };
+		C7E2DF4B26730CB500D098FE /* signerFacts.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3F26730CB500D098FE /* signerFacts.json */; };
+		C7E2DF4C26730CB500D098FE /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF4026730CB500D098FE /* events.json */; };
+		C7E2DF4E26730CEB00D098FE /* JOBJ in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF4D26730CEB00D098FE /* JOBJ */; };
+		C7E2DF5126730E0500D098FE /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5026730E0500D098FE /* CocoaLumberjackSwift */; };
+		C7E2DF5326730E0500D098FE /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5226730E0500D098FE /* CocoaLumberjack */; };
+		C7E2DF5526730E0500D098FE /* CocoaLumberjackSwiftLogBackend in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5426730E0500D098FE /* CocoaLumberjackSwiftLogBackend */; };
+		C7E2DF5826730E3400D098FE /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5726730E3400D098FE /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,19 @@
 		C7E2DF2626730B6300D098FE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C7E2DF2926730B6300D098FE /* Spirit_of_76.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spirit_of_76.xcdatamodel; sourceTree = "<group>"; };
 		C7E2DF2B26730B6300D098FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E2DF3526730CB400D098FE /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		C7E2DF3626730CB400D098FE /* signerWritings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = signerWritings.json; sourceTree = "<group>"; };
+		C7E2DF3726730CB400D098FE /* topics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topics.json; sourceTree = "<group>"; };
+		C7E2DF3826730CB400D098FE /* signers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = signers.json; sourceTree = "<group>"; };
+		C7E2DF3926730CB500D098FE /* signerProfessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = signerProfessions.json; sourceTree = "<group>"; };
+		C7E2DF3A26730CB500D098FE /* writings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = writings.json; sourceTree = "<group>"; };
+		C7E2DF3B26730CB500D098FE /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		C7E2DF3C26730CB500D098FE /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		C7E2DF3D26730CB500D098FE /* signerEducation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = signerEducation.json; sourceTree = "<group>"; };
+		C7E2DF3E26730CB500D098FE /* states.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = states.json; sourceTree = "<group>"; };
+		C7E2DF3F26730CB500D098FE /* signerFacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = signerFacts.json; sourceTree = "<group>"; };
+		C7E2DF4026730CB500D098FE /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		C7E2DF4D26730CEB00D098FE /* JOBJ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JOBJ; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E2DF5326730E0500D098FE /* CocoaLumberjack in Frameworks */,
+				C7E2DF5526730E0500D098FE /* CocoaLumberjackSwiftLogBackend in Frameworks */,
+				C7E2DF5826730E3400D098FE /* SwiftyJSON in Frameworks */,
+				C7E2DF5126730E0500D098FE /* CocoaLumberjackSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +90,12 @@
 		C7E2DF1C26730B6000D098FE /* Spirit of 76 */ = {
 			isa = PBXGroup;
 			children = (
+				C7E2DF3326730C8600D098FE /* Resources */,
+				C7E2DF3226730C7700D098FE /* Model */,
+				C7E2DF3126730C7100D098FE /* Views */,
 				C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */,
-				C7E2DF1F26730B6000D098FE /* ContentView.swift */,
-				C7E2DF2126730B6300D098FE /* Assets.xcassets */,
 				C7E2DF2626730B6300D098FE /* Persistence.swift */,
 				C7E2DF2B26730B6300D098FE /* Info.plist */,
-				C7E2DF2826730B6300D098FE /* Spirit_of_76.xcdatamodeld */,
 				C7E2DF2326730B6300D098FE /* Preview Content */,
 			);
 			path = "Spirit of 76";
@@ -73,6 +107,51 @@
 				C7E2DF2426730B6300D098FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7E2DF3126730C7100D098FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7E2DF1F26730B6000D098FE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7E2DF3226730C7700D098FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7E2DF4D26730CEB00D098FE /* JOBJ */,
+				C7E2DF2826730B6300D098FE /* Spirit_of_76.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7E2DF3326730C8600D098FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7E2DF3426730CA000D098FE /* JSON */,
+				C7E2DF2126730B6300D098FE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7E2DF3426730CA000D098FE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C7E2DF3526730CB400D098FE /* cities.json */,
+				C7E2DF3B26730CB500D098FE /* countries.json */,
+				C7E2DF4026730CB500D098FE /* events.json */,
+				C7E2DF3C26730CB500D098FE /* quotes.json */,
+				C7E2DF3D26730CB500D098FE /* signerEducation.json */,
+				C7E2DF3F26730CB500D098FE /* signerFacts.json */,
+				C7E2DF3926730CB500D098FE /* signerProfessions.json */,
+				C7E2DF3826730CB400D098FE /* signers.json */,
+				C7E2DF3626730CB400D098FE /* signerWritings.json */,
+				C7E2DF3E26730CB500D098FE /* states.json */,
+				C7E2DF3726730CB400D098FE /* topics.json */,
+				C7E2DF3A26730CB500D098FE /* writings.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +170,12 @@
 			dependencies = (
 			);
 			name = "Spirit of 76";
+			packageProductDependencies = (
+				C7E2DF5026730E0500D098FE /* CocoaLumberjackSwift */,
+				C7E2DF5226730E0500D098FE /* CocoaLumberjack */,
+				C7E2DF5426730E0500D098FE /* CocoaLumberjackSwiftLogBackend */,
+				C7E2DF5726730E3400D098FE /* SwiftyJSON */,
+			);
 			productName = "Spirit of 76";
 			productReference = C7E2DF1A26730B6000D098FE /* Spirit of 76.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +203,10 @@
 				Base,
 			);
 			mainGroup = C7E2DF1126730B6000D098FE;
+			packageReferences = (
+				C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
+				C7E2DF5626730E3400D098FE /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = C7E2DF1B26730B6000D098FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,8 +221,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E2DF4526730CB500D098FE /* signerProfessions.json in Resources */,
+				C7E2DF4126730CB500D098FE /* cities.json in Resources */,
 				C7E2DF2526730B6300D098FE /* Preview Assets.xcassets in Resources */,
+				C7E2DF4726730CB500D098FE /* countries.json in Resources */,
+				C7E2DF4226730CB500D098FE /* signerWritings.json in Resources */,
+				C7E2DF4626730CB500D098FE /* writings.json in Resources */,
+				C7E2DF4826730CB500D098FE /* quotes.json in Resources */,
+				C7E2DF4326730CB500D098FE /* topics.json in Resources */,
+				C7E2DF4E26730CEB00D098FE /* JOBJ in Resources */,
+				C7E2DF4926730CB500D098FE /* signerEducation.json in Resources */,
 				C7E2DF2226730B6300D098FE /* Assets.xcassets in Resources */,
+				C7E2DF4C26730CB500D098FE /* events.json in Resources */,
+				C7E2DF4B26730CB500D098FE /* signerFacts.json in Resources */,
+				C7E2DF4426730CB500D098FE /* signers.json in Resources */,
+				C7E2DF4A26730CB500D098FE /* states.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +440,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.7.2;
+			};
+		};
+		C7E2DF5626730E3400D098FE /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7E2DF5026730E0500D098FE /* CocoaLumberjackSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwift;
+		};
+		C7E2DF5226730E0500D098FE /* CocoaLumberjack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjack;
+		};
+		C7E2DF5426730E0500D098FE /* CocoaLumberjackSwiftLogBackend */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwiftLogBackend;
+		};
+		C7E2DF5726730E3400D098FE /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7E2DF5626730E3400D098FE /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C7E2DF2826730B6300D098FE /* Spirit_of_76.xcdatamodeld */ = {
