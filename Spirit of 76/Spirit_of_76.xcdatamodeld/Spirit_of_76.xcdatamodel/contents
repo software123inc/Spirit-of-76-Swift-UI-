@@ -1,9 +1,107 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
-        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="City" representedClassName="City" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <relationship name="state" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="cities" inverseEntity="State"/>
+    </entity>
+    <entity name="Country" representedClassName="Country" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="birthPersons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="birthCountry" inverseEntity="Person"/>
+    </entity>
+    <entity name="Education" representedClassName="Education" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="notes" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="educations" inverseEntity="Person"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="asOfDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <attribute name="year" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Fact" representedClassName="Fact" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="notes" attributeType="String"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="facts" inverseEntity="Person"/>
+    </entity>
+    <entity name="JsonImport" representedClassName="JsonImport" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="jsonId" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="releaseStatus" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="sortValue" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dateOfDeath" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="descriptiveText" optional="YES" attributeType="String"/>
+        <attribute name="firstName" attributeType="String"/>
+        <attribute name="lastName" attributeType="String"/>
+        <attribute name="middleName" optional="YES" attributeType="String"/>
+        <attribute name="namePrefix" optional="YES" attributeType="String"/>
+        <attribute name="nameSuffix" optional="YES" attributeType="String"/>
+        <attribute name="placeOfBirth" optional="YES" attributeType="String"/>
+        <attribute name="placeOfDeath" optional="YES" attributeType="String"/>
+        <attribute name="signerDOI" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="signerUSC" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="summaryText" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="birthCountry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="birthPersons" inverseEntity="Country"/>
+        <relationship name="birthState" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="birthPersons" inverseEntity="State"/>
+        <relationship name="educations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Education" inverseName="person" inverseEntity="Education"/>
+        <relationship name="facts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Fact" inverseName="person" inverseEntity="Fact"/>
+        <relationship name="professions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Profession" inverseName="person" inverseEntity="Profession"/>
+        <relationship name="quotes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quote" inverseName="person" inverseEntity="Quote"/>
+        <relationship name="residenceState" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="residentPersons" inverseEntity="State"/>
+        <relationship name="writings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Writing" inverseName="persons" inverseEntity="Writing"/>
+    </entity>
+    <entity name="Profession" representedClassName="Profession" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="notes" attributeType="String"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="professions" inverseEntity="Person"/>
+    </entity>
+    <entity name="Quote" representedClassName="Quote" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="quotation" optional="YES" attributeType="String"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="quotes" inverseEntity="Person"/>
+    </entity>
+    <entity name="State" representedClassName="State" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="abbreviation" attributeType="String" minValueString="2"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="birthPersons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="birthState" inverseEntity="Person"/>
+        <relationship name="cities" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="City" inverseName="state" inverseEntity="City"/>
+        <relationship name="residentPersons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="residenceState" inverseEntity="Person"/>
+    </entity>
+    <entity name="Topic" representedClassName="Topic" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+    <entity name="Writing" representedClassName="Writing" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+        <attribute name="amazonLink" optional="YES" attributeType="String"/>
+        <attribute name="notes" attributeType="String"/>
+        <attribute name="synopsis" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="persons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="writings" inverseEntity="Person"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="City" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Country" positionX="-54" positionY="18" width="128" height="73"/>
+        <element name="Education" positionX="-9" positionY="90" width="128" height="88"/>
+        <element name="Event" positionX="-36" positionY="36" width="128" height="148"/>
+        <element name="Fact" positionX="0" positionY="99" width="128" height="103"/>
+        <element name="JsonImport" positionX="-9" positionY="135" width="128" height="118"/>
+        <element name="Person" positionX="18" positionY="117" width="128" height="373"/>
+        <element name="Profession" positionX="9" positionY="108" width="128" height="103"/>
+        <element name="Quote" positionX="-18" positionY="99" width="128" height="73"/>
+        <element name="State" positionX="0" positionY="108" width="128" height="118"/>
+        <element name="Topic" positionX="18" positionY="117" width="128" height="88"/>
+        <element name="Writing" positionX="36" positionY="126" width="128" height="118"/>
     </elements>
 </model>
