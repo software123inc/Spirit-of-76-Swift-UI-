@@ -11,8 +11,8 @@ import CocoaLumberjackSwift
 
 struct AuthorshipPlist: Codable {
     let jsonId:Int16
-    let personId:Int16?
-    let writingId:Int16
+    let signerId:Int16?
+    let writingId:Int16?
 }
 
 struct AuthorshipImporter {
@@ -28,13 +28,36 @@ struct AuthorshipImporter {
             if let plistItems = PListImporter.shared.itemList(forResource: resourceName, root: "records") {
                 var transformSuccess = false
                 PListSeeder.shared.transformPListRecords(plistItems, ofType:AuthorshipPlist.self) { item in
-                    guard let _ = item as? AuthorshipPlist else {
+                    guard let item = item as? AuthorshipPlist else {
                         DDLogWarn("item does not conform to \(itemType)Plist")
                         transformSuccess = false
                         return
                     }
                     
+                    guard let personId = item.signerId, let writingId = item.writingId else {
+                        DDLogWarn("item does contain both a personId and a writingId.")
+                        transformSuccess = false
+                        return
+                    }
                     
+                    // Fetch an author
+                    let frp:NSFetchRequest<Person> = Person.fetchRequest()
+                    frp.predicate = NSPredicate(format: "jsonId == %d", personId)
+                    
+                    // Fetch a writing
+                    let frw:NSFetchRequest<Writing> = Writing.fetchRequest()
+                    frw.predicate = NSPredicate(format: "jsonId == %d", writingId)
+                    
+                    do {
+                        // Get the foreign managed objects
+                        if let pp = try performingContext.fetch(frp).first,
+                           let ww = try performingContext.fetch(frw).first {
+                            pp.addToWritings(ww)
+                        }
+                    }
+                    catch {
+                        DDLogError(error)
+                    }
                 }
                 UserDefaults.standard.setValue(transformSuccess, forKey: udKey)
             }
@@ -47,6 +70,3 @@ struct AuthorshipImporter {
         }
     }
 }
-
-
-

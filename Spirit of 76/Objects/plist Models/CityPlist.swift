@@ -67,8 +67,11 @@ struct CityImporter {
                         mo.notes = item.notes
                         mo.synopsis = item.synopsis
                         
+                        // Do Relationships
+                        relate(city: mo, toStateId: item.stateId, inContext: performingContext)
+                        
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.name))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.name))'.")
                     }
                     catch {
                         transformSuccess = false
@@ -89,5 +92,21 @@ struct CityImporter {
     }
 }
 
-
-
+extension CityImporter {
+    func relate(city:City, toStateId stateId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let stateId = stateId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<State> = State.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", stateId)
+        
+        do {
+            let state = try context.fetch(fr).first
+            state?.addToCities(city)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+}

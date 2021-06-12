@@ -74,7 +74,7 @@ struct EventImporter {
                         mo.year = item.year
                         
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.name))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.name))'.")
                     }
                     catch {
                         transformSuccess = false

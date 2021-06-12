@@ -19,6 +19,7 @@ struct FactPlist: Codable {
     let notes:String
     let synopsis:String?
     let title:String?
+    let signerId:Int16?
 }
 
 struct FactImporter {
@@ -47,7 +48,7 @@ struct FactImporter {
                         let result = try performingContext.fetch(fr)
                         
                         guard result.isEmpty else {
-                            print("\(itemType) \(item.title) already exists")
+                            print("\(itemType) \(item.title ?? item.notes) already exists")
                             return
                         }
                         
@@ -64,8 +65,10 @@ struct FactImporter {
                         mo.synopsis = item.synopsis
                         mo.title = item.title
                         
+                        relate(fact: mo, toPersonId: item.signerId, inContext: performingContext)
+                        
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.title))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.title))'.")
                     }
                     catch {
                         transformSuccess = false
@@ -86,5 +89,22 @@ struct FactImporter {
     }
 }
 
-
-
+extension FactImporter {
+    func relate(fact:Fact, toPersonId personId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let personId = personId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<Person> = Person.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", personId)
+        
+        do {
+            // Get the foreign managed object
+            let fo = try context.fetch(fr).first
+            fo?.addToFacts(fact)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+}

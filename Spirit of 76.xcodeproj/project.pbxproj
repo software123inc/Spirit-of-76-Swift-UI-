@@ -172,10 +172,10 @@
 				C76A07BC26745F5000042C42 /* FactPlist.swift */,
 				C76A07B82674555E00042C42 /* PersonPlist.swift */,
 				C76A07BE26745FF600042C42 /* ProfessionPlist.swift */,
+				C76A07C2267461AC00042C42 /* QuotePlist.swift */,
 				C76A07B026744C4200042C42 /* StatePlist.swift */,
 				C76A07B226744F4800042C42 /* TopicPlist.swift */,
 				C76A07B42674532800042C42 /* WritingsPlist.swift */,
-				C76A07C2267461AC00042C42 /* QuotePlist.swift */,
 			);
 			path = "plist Models";
 			sourceTree = "<group>";

@@ -17,6 +17,7 @@ struct QuotePlist: Codable {
     let releaseStatus:Bool?
     
     let quotation:String
+    let signerId:Int16?
 }
 
 struct QuoteImporter {
@@ -60,8 +61,11 @@ struct QuoteImporter {
                         
                         mo.quotation = item.quotation
                         
+                        // Relate foreign records
+                        relate(quote: mo, toPersonId: item.signerId, inContext: performingContext)
+                        
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.quotation))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.quotation))'.")
                     }
                     catch {
                         transformSuccess = false
@@ -82,6 +86,22 @@ struct QuoteImporter {
     }
 }
 
-
-
-
+extension QuoteImporter {
+    func relate(quote:Quote, toPersonId personId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let personId = personId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<Person> = Person.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", personId)
+        
+        do {
+            // Get the foreign managed object
+            let fo = try context.fetch(fr).first
+            fo?.addToQuotes(quote)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+}

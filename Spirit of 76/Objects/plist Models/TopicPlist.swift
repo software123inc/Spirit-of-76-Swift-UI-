@@ -65,7 +65,7 @@ struct TopicImporter {
                         mo.title = item.title
                         
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.title))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.title))'.")
                     }
                     catch {
                         transformSuccess = false

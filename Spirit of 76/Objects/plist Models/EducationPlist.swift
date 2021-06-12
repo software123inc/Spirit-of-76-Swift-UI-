@@ -18,6 +18,7 @@ struct EducationPlist: Codable {
     
     let notes:String
     let title:String
+    let signerId:Int16?
 }
 
 struct EducationImporter {
@@ -62,8 +63,10 @@ struct EducationImporter {
                         mo.notes = item.notes
                         mo.title = item.title
                         
+                        relate(education: mo, toPersonId: item.signerId, inContext: performingContext)
+                        
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.title))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.title))'.")
                     }
                     catch {
                         transformSuccess = false
@@ -84,5 +87,22 @@ struct EducationImporter {
     }
 }
 
-
-
+extension EducationImporter {
+    func relate(education:Education, toPersonId personId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let personId = personId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<Person> = Person.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", personId)
+        
+        do {
+            // Get the foreign managed object
+            let fo = try context.fetch(fr).first
+            fo?.addToEducations(education)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+}

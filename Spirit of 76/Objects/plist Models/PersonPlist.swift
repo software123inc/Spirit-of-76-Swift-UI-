@@ -91,8 +91,13 @@ struct PersonImporter {
                         mo.summaryText = item.summaryText
                         mo.title = item.title
                         
+                        // Relate records
+                        relate(person: mo, toBirthCountryId: item.birthCountryId, inContext: performingContext)
+                        relate(person: mo, toBirthStateId: item.birthStateId, inContext: performingContext)
+                        relate(person: mo, toResidentStateId: item.residenceStateId, inContext: performingContext)
+                        
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.firstName)) \(String(describing: mo.lastName))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.firstName)) \(String(describing: mo.lastName))'.")
                     }
                     catch {
                         transformSuccess = false
@@ -113,6 +118,58 @@ struct PersonImporter {
     }
 }
 
-
-
-
+extension PersonImporter {
+    func relate(person:Person, toBirthCountryId countryId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let countryId = countryId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<Country> = Country.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", countryId)
+        
+        do {
+            // Get the foreign managed object
+            let fo = try context.fetch(fr).first
+            fo?.addToBirthPersons(person)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+    
+    func relate(person:Person, toBirthStateId stateId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let stateId = stateId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<State> = State.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", stateId)
+        
+        do {
+            // Get the foreign managed object
+            let fo = try context.fetch(fr).first
+            fo?.addToBirthPersons(person)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+    
+    func relate(person:Person, toResidentStateId stateId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let stateId = stateId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<State> = State.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", stateId)
+        
+        do {
+            // Get the foreign managed object
+            let fo = try context.fetch(fr).first
+            fo?.addToResidentPersons(person)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+}

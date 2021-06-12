@@ -19,6 +19,7 @@ struct ProfessionPlist: Codable {
     let notes:String
     let synopsis:String?
     let title:String
+    let signerId:Int16?
 }
 
 struct ProfessionImporter {
@@ -64,8 +65,11 @@ struct ProfessionImporter {
                         mo.synopsis = item.synopsis
                         mo.title = item.title
                         
+                        // Relate foreign records
+                        relate(profession: mo, toPersonId: item.signerId, inContext: performingContext)
+                        
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.title))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.title))'.")
                     }
                     catch {
                         transformSuccess = false
@@ -86,6 +90,22 @@ struct ProfessionImporter {
     }
 }
 
-
-
-
+extension ProfessionImporter {
+    func relate(profession:Profession, toPersonId personId:Int16?, inContext context:NSManagedObjectContext) {
+        guard let personId = personId  else {
+            return
+        }
+        
+        let fr:NSFetchRequest<Person> = Person.fetchRequest()
+        fr.predicate = NSPredicate(format: "jsonId == %d", personId)
+        
+        do {
+            // Get the foreign managed object
+            let fo = try context.fetch(fr).first
+            fo?.addToProfessions(profession)
+        }
+        catch {
+            DDLogError(error)
+        }
+    }
+}

@@ -63,7 +63,7 @@ struct StateImporter {
                         mo.name = item.name
                         
                         PersistenceController.saveContext(context: performingContext)
-                        DDLogDebug("Created \(itemType) '\(String(describing: mo.name))'.")
+                        DDLogVerbose("Created \(itemType) '\(String(describing: mo.name))'.")
                     }
                     catch {
                         transformSuccess = false
