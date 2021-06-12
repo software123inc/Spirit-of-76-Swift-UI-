@@ -19,6 +19,9 @@ struct CityPlist: Codable {
     let name:String
     let notes:String?
     let synopsis:String?
+    
+    // Foreign Keys
+    let stateId:Int16
 }
 
 struct CityImporter {

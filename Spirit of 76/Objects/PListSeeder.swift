@@ -21,8 +21,10 @@ struct PListSeeder {
             StateImporter.shared.doImport_v1(inContext: $0)
             TopicImporter.shared.doImport_v1(inContext: $0)
             WritingImporter.shared.doImport_v1(inContext: $0)
-            CityImporter.shared.doImport_v1(inContext: $0)
-            PersonImporter.shared.doImport_v1(inContext: $0)
+            
+            CityImporter.shared.doImport_v1(inContext: $0) // ForeignKey > state
+            PersonImporter.shared.doImport_v1(inContext: $0) // ForeignKey > state, country
+            
             EducationImporter.shared.doImport_v1(inContext: $0)
             FactImporter.shared.doImport_v1(inContext: $0)
             ProfessionImporter.shared.doImport_v1(inContext: $0)

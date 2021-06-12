@@ -30,6 +30,11 @@ struct PersonPlist: Codable {
     let signerUSC:Bool
     let summaryText:String?
     let title:String?
+    
+    // Foreign Keys
+    let birthCountryId:Int16?
+    let birthStateId:Int16?
+    let residenceStateId:Int16?
 }
 
 struct PersonImporter {
