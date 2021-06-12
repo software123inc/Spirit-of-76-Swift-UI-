@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "S123Common",
+        "repositoryURL": "https://github.com/software123inc/S123Common.git",
+        "state": {
+          "branch": null,
+          "revision": "b8c66742b8e56eaf41a1b422f3286aba32223aef",
+          "version": "2.0.0"
+        }
+      },
+      {
         "package": "swift-log",
         "repositoryURL": "https://github.com/apple/swift-log.git",
         "state": {

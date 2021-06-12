@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C770FD982673DD4C00BAB970 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FD972673DD4C00BAB970 /* ThemeManager.swift */; };
+		C770FD9A2673DD8100BAB970 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FD992673DD8100BAB970 /* Constants.swift */; };
+		C770FDA32673EC2C00BAB970 /* S123Common in Frameworks */ = {isa = PBXBuildFile; productRef = C770FDA22673EC2C00BAB970 /* S123Common */; };
+		C770FDA52673F7D300BAB970 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDA42673F7D300BAB970 /* JSONHelper.swift */; };
+		C770FDA82673F89F00BAB970 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDA72673F89F00BAB970 /* TypeAliases.swift */; };
+		C770FDAB2674188300BAB970 /* countries_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C770FDAA2674188300BAB970 /* countries_v1.plist */; };
+		C770FDAD267424E600BAB970 /* PListImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDAC267424E600BAB970 /* PListImporter.swift */; };
+		C770FDAF267425E300BAB970 /* PListSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDAE267425E300BAB970 /* PListSeeder.swift */; };
+		C770FDB12674273800BAB970 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDB02674273800BAB970 /* UserDefaultKeys.swift */; };
+		C770FDB42674332B00BAB970 /* CountryPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDB32674332B00BAB970 /* CountryPlist.swift */; };
+		C770FDB626743D6900BAB970 /* events_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C770FDB526743D6900BAB970 /* events_v1.plist */; };
+		C770FDB826743D8F00BAB970 /* EventPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDB726743D8F00BAB970 /* EventPlist.swift */; };
+		C774365B26744A040087D85F /* signerFacts_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743651267449FC0087D85F /* signerFacts_v1.plist */; };
+		C774365C26744A040087D85F /* signerProfessions_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743652267449FD0087D85F /* signerProfessions_v1.plist */; };
+		C774365D26744A040087D85F /* signerEducation_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743653267449FE0087D85F /* signerEducation_v1.plist */; };
+		C774365E26744A040087D85F /* states_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743654267449FF0087D85F /* states_v1.plist */; };
+		C774365F26744A040087D85F /* quotes_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365526744A000087D85F /* quotes_v1.plist */; };
+		C774366026744A040087D85F /* signers_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365626744A000087D85F /* signers_v1.plist */; };
+		C774366126744A040087D85F /* cities_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365726744A010087D85F /* cities_v1.plist */; };
+		C774366226744A040087D85F /* writings_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365826744A020087D85F /* writings_v1.plist */; };
+		C774366326744A040087D85F /* signerWritings_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365926744A030087D85F /* signerWritings_v1.plist */; };
+		C774366426744A040087D85F /* topics_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365A26744A040087D85F /* topics_v1.plist */; };
 		C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */; };
 		C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1F26730B6000D098FE /* ContentView.swift */; };
 		C7E2DF2226730B6300D098FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF2126730B6300D098FE /* Assets.xcassets */; };
@@ -26,13 +48,30 @@
 		C7E2DF4B26730CB500D098FE /* signerFacts.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF3F26730CB500D098FE /* signerFacts.json */; };
 		C7E2DF4C26730CB500D098FE /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF4026730CB500D098FE /* events.json */; };
 		C7E2DF4E26730CEB00D098FE /* JOBJ in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF4D26730CEB00D098FE /* JOBJ */; };
-		C7E2DF5126730E0500D098FE /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5026730E0500D098FE /* CocoaLumberjackSwift */; };
-		C7E2DF5326730E0500D098FE /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5226730E0500D098FE /* CocoaLumberjack */; };
-		C7E2DF5526730E0500D098FE /* CocoaLumberjackSwiftLogBackend in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5426730E0500D098FE /* CocoaLumberjackSwiftLogBackend */; };
-		C7E2DF5826730E3400D098FE /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C7E2DF5726730E3400D098FE /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C770FD972673DD4C00BAB970 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		C770FD992673DD8100BAB970 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C770FDA42673F7D300BAB970 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		C770FDA72673F89F00BAB970 /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
+		C770FDAA2674188300BAB970 /* countries_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countries_v1.plist; sourceTree = "<group>"; };
+		C770FDAC267424E600BAB970 /* PListImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListImporter.swift; sourceTree = "<group>"; };
+		C770FDAE267425E300BAB970 /* PListSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListSeeder.swift; sourceTree = "<group>"; };
+		C770FDB02674273800BAB970 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
+		C770FDB32674332B00BAB970 /* CountryPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPlist.swift; sourceTree = "<group>"; };
+		C770FDB526743D6900BAB970 /* events_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = events_v1.plist; sourceTree = "<group>"; };
+		C770FDB726743D8F00BAB970 /* EventPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlist.swift; sourceTree = "<group>"; };
+		C7743651267449FC0087D85F /* signerFacts_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerFacts_v1.plist; sourceTree = "<group>"; };
+		C7743652267449FD0087D85F /* signerProfessions_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerProfessions_v1.plist; sourceTree = "<group>"; };
+		C7743653267449FE0087D85F /* signerEducation_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerEducation_v1.plist; sourceTree = "<group>"; };
+		C7743654267449FF0087D85F /* states_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = states_v1.plist; sourceTree = "<group>"; };
+		C774365526744A000087D85F /* quotes_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes_v1.plist; sourceTree = "<group>"; };
+		C774365626744A000087D85F /* signers_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signers_v1.plist; sourceTree = "<group>"; };
+		C774365726744A010087D85F /* cities_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities_v1.plist; sourceTree = "<group>"; };
+		C774365826744A020087D85F /* writings_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = writings_v1.plist; sourceTree = "<group>"; };
+		C774365926744A030087D85F /* signerWritings_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerWritings_v1.plist; sourceTree = "<group>"; };
+		C774365A26744A040087D85F /* topics_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics_v1.plist; sourceTree = "<group>"; };
 		C7E2DF1A26730B6000D098FE /* Spirit of 76.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spirit of 76.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirit_of_76App.swift; sourceTree = "<group>"; };
 		C7E2DF1F26730B6000D098FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,16 +100,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E2DF5326730E0500D098FE /* CocoaLumberjack in Frameworks */,
-				C7E2DF5526730E0500D098FE /* CocoaLumberjackSwiftLogBackend in Frameworks */,
-				C7E2DF5826730E3400D098FE /* SwiftyJSON in Frameworks */,
-				C7E2DF5126730E0500D098FE /* CocoaLumberjackSwift in Frameworks */,
+				C770FDA32673EC2C00BAB970 /* S123Common in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C770FD962673DCAD00BAB970 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C770FD992673DD8100BAB970 /* Constants.swift */,
+				C770FDA42673F7D300BAB970 /* JSONHelper.swift */,
+				C770FDAC267424E600BAB970 /* PListImporter.swift */,
+				C770FDAE267425E300BAB970 /* PListSeeder.swift */,
+				C770FD972673DD4C00BAB970 /* ThemeManager.swift */,
+				C770FDA72673F89F00BAB970 /* TypeAliases.swift */,
+				C770FDB02674273800BAB970 /* UserDefaultKeys.swift */,
+				C770FDB2267432F300BAB970 /* plist Models */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C770FDA92674187800BAB970 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				C774365726744A010087D85F /* cities_v1.plist */,
+				C770FDAA2674188300BAB970 /* countries_v1.plist */,
+				C770FDB526743D6900BAB970 /* events_v1.plist */,
+				C774365526744A000087D85F /* quotes_v1.plist */,
+				C7743653267449FE0087D85F /* signerEducation_v1.plist */,
+				C7743651267449FC0087D85F /* signerFacts_v1.plist */,
+				C7743652267449FD0087D85F /* signerProfessions_v1.plist */,
+				C774365626744A000087D85F /* signers_v1.plist */,
+				C774365926744A030087D85F /* signerWritings_v1.plist */,
+				C7743654267449FF0087D85F /* states_v1.plist */,
+				C774365A26744A040087D85F /* topics_v1.plist */,
+				C774365826744A020087D85F /* writings_v1.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+		C770FDB2267432F300BAB970 /* plist Models */ = {
+			isa = PBXGroup;
+			children = (
+				C770FDB32674332B00BAB970 /* CountryPlist.swift */,
+				C770FDB726743D8F00BAB970 /* EventPlist.swift */,
+			);
+			path = "plist Models";
+			sourceTree = "<group>";
+		};
 		C7E2DF1126730B6000D098FE = {
 			isa = PBXGroup;
 			children = (
@@ -90,13 +169,14 @@
 		C7E2DF1C26730B6000D098FE /* Spirit of 76 */ = {
 			isa = PBXGroup;
 			children = (
-				C7E2DF3326730C8600D098FE /* Resources */,
-				C7E2DF3226730C7700D098FE /* Model */,
-				C7E2DF3126730C7100D098FE /* Views */,
-				C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */,
-				C7E2DF2626730B6300D098FE /* Persistence.swift */,
 				C7E2DF2B26730B6300D098FE /* Info.plist */,
+				C7E2DF2626730B6300D098FE /* Persistence.swift */,
+				C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */,
+				C7E2DF3226730C7700D098FE /* Model */,
+				C770FD962673DCAD00BAB970 /* Objects */,
 				C7E2DF2326730B6300D098FE /* Preview Content */,
+				C7E2DF3326730C8600D098FE /* Resources */,
+				C7E2DF3126730C7100D098FE /* Views */,
 			);
 			path = "Spirit of 76";
 			sourceTree = "<group>";
@@ -129,6 +209,7 @@
 		C7E2DF3326730C8600D098FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C770FDA92674187800BAB970 /* plists */,
 				C7E2DF3426730CA000D098FE /* JSON */,
 				C7E2DF2126730B6300D098FE /* Assets.xcassets */,
 			);
@@ -171,10 +252,7 @@
 			);
 			name = "Spirit of 76";
 			packageProductDependencies = (
-				C7E2DF5026730E0500D098FE /* CocoaLumberjackSwift */,
-				C7E2DF5226730E0500D098FE /* CocoaLumberjack */,
-				C7E2DF5426730E0500D098FE /* CocoaLumberjackSwiftLogBackend */,
-				C7E2DF5726730E3400D098FE /* SwiftyJSON */,
+				C770FDA22673EC2C00BAB970 /* S123Common */,
 			);
 			productName = "Spirit of 76";
 			productReference = C7E2DF1A26730B6000D098FE /* Spirit of 76.app */;
@@ -204,8 +282,7 @@
 			);
 			mainGroup = C7E2DF1126730B6000D098FE;
 			packageReferences = (
-				C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
-				C7E2DF5626730E3400D098FE /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				C770FDA12673EC2C00BAB970 /* XCRemoteSwiftPackageReference "S123Common" */,
 			);
 			productRefGroup = C7E2DF1B26730B6000D098FE /* Products */;
 			projectDirPath = "";
@@ -222,14 +299,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E2DF4526730CB500D098FE /* signerProfessions.json in Resources */,
+				C774365C26744A040087D85F /* signerProfessions_v1.plist in Resources */,
 				C7E2DF4126730CB500D098FE /* cities.json in Resources */,
 				C7E2DF2526730B6300D098FE /* Preview Assets.xcassets in Resources */,
+				C774365D26744A040087D85F /* signerEducation_v1.plist in Resources */,
+				C774365B26744A040087D85F /* signerFacts_v1.plist in Resources */,
 				C7E2DF4726730CB500D098FE /* countries.json in Resources */,
+				C770FDB626743D6900BAB970 /* events_v1.plist in Resources */,
 				C7E2DF4226730CB500D098FE /* signerWritings.json in Resources */,
+				C770FDAB2674188300BAB970 /* countries_v1.plist in Resources */,
+				C774366326744A040087D85F /* signerWritings_v1.plist in Resources */,
 				C7E2DF4626730CB500D098FE /* writings.json in Resources */,
+				C774366026744A040087D85F /* signers_v1.plist in Resources */,
 				C7E2DF4826730CB500D098FE /* quotes.json in Resources */,
+				C774365F26744A040087D85F /* quotes_v1.plist in Resources */,
 				C7E2DF4326730CB500D098FE /* topics.json in Resources */,
 				C7E2DF4E26730CEB00D098FE /* JOBJ in Resources */,
+				C774366126744A040087D85F /* cities_v1.plist in Resources */,
+				C774365E26744A040087D85F /* states_v1.plist in Resources */,
+				C774366226744A040087D85F /* writings_v1.plist in Resources */,
+				C774366426744A040087D85F /* topics_v1.plist in Resources */,
 				C7E2DF4926730CB500D098FE /* signerEducation.json in Resources */,
 				C7E2DF2226730B6300D098FE /* Assets.xcassets in Resources */,
 				C7E2DF4C26730CB500D098FE /* events.json in Resources */,
@@ -246,10 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C770FDB826743D8F00BAB970 /* EventPlist.swift in Sources */,
+				C770FDA82673F89F00BAB970 /* TypeAliases.swift in Sources */,
+				C770FDA52673F7D300BAB970 /* JSONHelper.swift in Sources */,
 				C7E2DF2A26730B6300D098FE /* Spirit_of_76.xcdatamodeld in Sources */,
 				C7E2DF2726730B6300D098FE /* Persistence.swift in Sources */,
+				C770FD982673DD4C00BAB970 /* ThemeManager.swift in Sources */,
+				C770FDB42674332B00BAB970 /* CountryPlist.swift in Sources */,
+				C770FDB12674273800BAB970 /* UserDefaultKeys.swift in Sources */,
+				C770FDAD267424E600BAB970 /* PListImporter.swift in Sources */,
 				C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */,
 				C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */,
+				C770FDAF267425E300BAB970 /* PListSeeder.swift in Sources */,
+				C770FD9A2673DD8100BAB970 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,44 +540,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
+		C770FDA12673EC2C00BAB970 /* XCRemoteSwiftPackageReference "S123Common" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack.git";
+			repositoryURL = "https://github.com/software123inc/S123Common.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.7.2;
-			};
-		};
-		C7E2DF5626730E3400D098FE /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C7E2DF5026730E0500D098FE /* CocoaLumberjackSwift */ = {
+		C770FDA22673EC2C00BAB970 /* S123Common */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjackSwift;
-		};
-		C7E2DF5226730E0500D098FE /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-		C7E2DF5426730E0500D098FE /* CocoaLumberjackSwiftLogBackend */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7E2DF4F26730E0500D098FE /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjackSwiftLogBackend;
-		};
-		C7E2DF5726730E3400D098FE /* SwiftyJSON */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7E2DF5626730E3400D098FE /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
-			productName = SwiftyJSON;
+			package = C770FDA12673EC2C00BAB970 /* XCRemoteSwiftPackageReference "S123Common" */;
+			productName = S123Common;
 		};
 /* End XCSwiftPackageProductDependency section */
 

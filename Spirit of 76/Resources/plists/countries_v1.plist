@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>records</key>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>flag_usa</string>
+			<key>jsonId</key>
+			<real>1</real>
+			<key>name</key>
+			<string>United States</string>
+			<key>sortValue</key>
+			<string>United States</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_england</string>
+			<key>jsonId</key>
+			<real>2</real>
+			<key>name</key>
+			<string>British American Colonies</string>
+			<key>sortValue</key>
+			<string>British American Colonies</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_england</string>
+			<key>jsonId</key>
+			<real>3</real>
+			<key>name</key>
+			<string>Great Britain</string>
+			<key>sortValue</key>
+			<string>Great Britain</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_france</string>
+			<key>jsonId</key>
+			<real>4</real>
+			<key>name</key>
+			<string>French American Colonies</string>
+			<key>sortValue</key>
+			<string>French American Colonies</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_france</string>
+			<key>jsonId</key>
+			<real>5</real>
+			<key>name</key>
+			<string>France</string>
+			<key>sortValue</key>
+			<string>France</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_spain</string>
+			<key>jsonId</key>
+			<real>6</real>
+			<key>name</key>
+			<string>Spain</string>
+			<key>sortValue</key>
+			<string>Spain</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_spain</string>
+			<key>jsonId</key>
+			<real>7</real>
+			<key>name</key>
+			<string>Spanish American Colonies</string>
+			<key>sortValue</key>
+			<string>Spanish American Colonies</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_ireland</string>
+			<key>jsonId</key>
+			<real>8</real>
+			<key>name</key>
+			<string>Ireland</string>
+			<key>sortValue</key>
+			<string>Ireland</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_scotland</string>
+			<key>jsonId</key>
+			<real>9</real>
+			<key>name</key>
+			<string>Scotland</string>
+			<key>sortValue</key>
+			<string>Scotland</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>flag_wales</string>
+			<key>jsonId</key>
+			<real>10</real>
+			<key>name</key>
+			<string>Wales</string>
+			<key>sortValue</key>
+			<string>Wales</string>
+		</dict>
+	</array>
+</dict>
+</plist>

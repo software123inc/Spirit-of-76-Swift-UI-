@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>records</key>
+	<array>
+		<dict>
+			<key>asOfDate</key>
+			<string>1776-07-04</string>
+			<key>imageName</key>
+			<string>Signing_DoI</string>
+			<key>jsonId</key>
+			<real>1</real>
+			<key>name</key>
+			<string>Declaration of Independence</string>
+			<key>notes</key>
+			<string>The committee appointed by Congress to draft a declaration of independence pursuant to Richard Henry Lee's motion consisted of Thomas Jefferson, Dr. Franklin, John Adams, Roger Sherman, and Robert R. Livingston. It may be asked, why was not Mr. Lee, by common courtesy, at least, put upon that committee, and, designated its chairman? The reason was, that on the very day he offered the resolution, an express arrived from Virginia, informing him of the illness of some of his family, which caused him to ask leave of absence, and he immediately started for home. He was therefore absent from Congress when the committee was formed. This document was presented to Congress on the first day of July; and after several amendments made in committee of the whole, it was adopted on the fourth, by the unanimous votes of the thirteen United Colonies. It was then signed on the second of August, 1776.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Declaration of Independence</string>
+			<key>synopsis</key>
+			<string>Signing the Declaration</string>
+			<key>year</key>
+			<real>1776</real>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>Signing_CUS</string>
+			<key>jsonId</key>
+			<real>2</real>
+			<key>name</key>
+			<string>Constitutional Convention</string>
+			<key>notes</key>
+			<string>When the war of the Revolution was terminated, and the army disbanded, Congress, which had been powerful through its military arm, was rendered quite impotent, for the authority before concentrated in the National Legislature, returned to the individual States whence it emanated. Congress was burdened with a foreign debt of eight millions of dollars, and a domestic debt of thirty millions, and yet, according to the Articles of Confederation, it possessed no power to liquidate debts incurred during the war; it only possessed the privilege of recommending to the several States the payment thereof. The people lost nearly all regard for Congress, general indifference prevailed, and a disposition to refuse to pay any taxes whatsoever began to be cherished. General anarchy and confusion seemed to be the tendency of all things, and the leading men of the Revolution felt gloomy forebodings for the future. It was clearly seen that the serious defects of the Articles of Confederation were the root of the growing evil, and these convictions led to those measures which finally wrought out the Federal Constitution.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Constitutional Convention</string>
+			<key>synopsis</key>
+			<string>Debating and drafting the U.S. Constitution</string>
+			<key>year</key>
+			<real>1787</real>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>Lexington</string>
+			<key>jsonId</key>
+			<real>3</real>
+			<key>name</key>
+			<string>Lexington &amp; Concord</string>
+			<key>releaseStatus</key>
+			<false/>
+			<key>sortValue</key>
+			<string>Lexington &amp; Concord</string>
+			<key>synopsis</key>
+			<string>The first battle of American Revolution</string>
+			<key>year</key>
+			<real>1775</real>
+		</dict>
+		<dict>
+			<key>endYear</key>
+			<real>1788</real>
+			<key>imageName</key>
+			<string>Constitution_Ratification</string>
+			<key>jsonId</key>
+			<real>4</real>
+			<key>name</key>
+			<string>Constitution Ratification</string>
+			<key>releaseStatus</key>
+			<false/>
+			<key>sortValue</key>
+			<string>Constitution Ratification</string>
+			<key>synopsis</key>
+			<string>The debates among states to adopt the Union</string>
+			<key>year</key>
+			<real>1787</real>
+		</dict>
+		<dict>
+			<key>asOfDate</key>
+			<string>1773-12-16</string>
+			<key>imageName</key>
+			<string>Boston_Tea_Party</string>
+			<key>jsonId</key>
+			<real>5</real>
+			<key>name</key>
+			<string>Boston Tea Party</string>
+			<key>notes</key>
+			<string>When the British ministry became convinced that the Americans would never submit to the taxed without their consent, they repealed several acts which were most obnoxious to the Colonies, but retained a duty upon tea. This, it was well understood in Parliament, was intended merely as a salvo for British honor, for the government had declared its right to tax the Colonies; and it was urged, that if it should, because of the opposition of the Americans, relinquished that right, it would be a virtual abdication of government in the Colonies. On the other hand, although the duty was but little more than nominal, the Americans saw involved in it a principle they could not sacrifice, and therefore they manfully resisted the exercise of the assumed right. The duty being so light, the East India Company believing the Colonists would not complain, at once sent large cargoes of tea to America. In Boston the people would not allow it to be landed, and ordered the vessel out of port. Refusing to comply, a party (some disguised as Indians) went on board on the night of the sixteenth of December, 1773, and broke open, and cast into the harbor, more than three hundred chests of tea. As an instance of the scope the Tea Party had throughout the colonies, it is related, that when, in 1773-1774, the 'tea excitement' was at its height, a Mr. Stewart of Annapolis, imported a quantity of the obnoxious article. The people were exasperated, and threatened to destroy the tea if landed. The Provincial Legislature being then in session, appointed a committee of delegates to superintend the unlading of the cargo and see that no tea was landed. With this the people were not satisfied, and Mr. Stewart appealed to Mr. Carroll to interpose his influence. The latter told him it would be impossible to have any effect upon the public mind in this matter, where such an important principle was concerned, and he advised Mr. Stewart to allow the vessel and cargo to be burned. This advice Mr. Stewart followed, and by his consent the conflagration took place.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Boston Tea Party</string>
+			<key>synopsis</key>
+			<string>Iconic act of civil protest over tyranny through taxation.</string>
+			<key>year</key>
+			<real>1773</real>
+		</dict>
+		<dict>
+			<key>endYear</key>
+			<real>1765</real>
+			<key>imageName</key>
+			<string>Stamp_Act</string>
+			<key>jsonId</key>
+			<real>6</real>
+			<key>name</key>
+			<string>Stamp Act</string>
+			<key>notes</key>
+			<string>The Stamp Act required all legal documents, such as wills, deeds, mortgages, marriage certificates, etc., to be written on paper stamped with the royal arms of Britain. An officer called a Stamp Master was appointed to sell them, and thus Great Britain indirectly taxed her American colonies without their consent. The eloquence of Patrick Henry's resolutions respecting the Stamp Act, fell like successive thunderbolts on the ears of the timid House of Burgesses. 'It was in the midst of the magnificent debate on those resolutions,' says Mr. Wirt, 'while he was descanting on the tyranny of the obnoxious Act, that he exclaimed, in a voice of thunder, and with the look of a God; 'Caesar had his Brutus, Charles the First his Cromwell - and George the Third' -- 'Treason!' cried the Speaker -- 'treason, treason,' echoed from every part of the House. It was one of those trying moments which are decisive of character. Henry faltered not for an instant; but rising to a loftier altitude and fixing on the Speaker an eye of the most determined fire, he finished the sentence with the firmest emphasis -- 'and George the Third -- may profit by their example. If that be treason, make the most of it.''</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Stamp Act</string>
+			<key>synopsis</key>
+			<string>A tax disguised as a fee.</string>
+			<key>year</key>
+			<real>1765</real>
+		</dict>
+		<dict>
+			<key>asOfDate</key>
+			<string>1768-06-10</string>
+			<key>imageName</key>
+			<string>sloop_liberty</string>
+			<key>jsonId</key>
+			<real>7</real>
+			<key>name</key>
+			<string>Seizure of the Sloop Liberty</string>
+			<key>notes</key>
+			<string>One of the earliest acts of open resistance was on the occasion of the seizure of John Hancock's sloop, Liberty in 1768 by the Custom House officers, under the plea that she was loaded with goods contrary to the revenue laws. The people were greatly exasperated; they beat the officers with clubs and obliged them to fly to Castle William, at the entrance of Boston harbor for safety. They also burned the Collector's boat and committed other acts of violence. These transactions gave the royal governor an excuse he wished for to introduce British troops into the city. This measure excited the indignation of the people to the highest pitch, and almost daily quarrels took place in the streets between the citizens and the soldiers, which finally resulted in the death of three Americans in March 1770 by shots from the soldiers' muskets (editor's note: three were killed instantly and two others subsequently died from wounds sustained in the event) -- an event known as The Boston Massacre.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Seizure of the Sloop Liberty</string>
+			<key>year</key>
+			<real>1768</real>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>Convention_Albany</string>
+			<key>jsonId</key>
+			<real>8</real>
+			<key>name</key>
+			<string>Colonial Convention, Albany</string>
+			<key>notes</key>
+			<string>This Convention was called for the purpose of concerting measures to oppose more effectually the encroachments of the French settlers, and to hold a conference with the Six Nations of Indians. Dr. Franklin was a member of that Convention and submitted a plan of union for the colonies which contained all the essential features of our present Constitution.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Colonial Convention, Albany</string>
+			<key>year</key>
+			<real>1754</real>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>Philadelphia_Congress</string>
+			<key>jsonId</key>
+			<real>9</real>
+			<key>name</key>
+			<string>Congress on the Move</string>
+			<key>notes</key>
+			<string>During the Revolution, Congress held its sessions in Philadelphia, but was obliged on several occasions to retreat to a more secure position. At the close of 1776, it adjourned to Baltimore, MD, when it was expected Cornwallis would attack Philadelphia, after his successful pursuit of Washington across New Jersey. Again, when Howe marched upon Philadelphia in September 1777, Congress adjourned to Lancaster, and three days afterward to York, where its sessions were held during the winter the American Army was encamped at Valley Forge.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Congress on the Move</string>
+			<key>year</key>
+			<real>1776</real>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>Colonial_Congress</string>
+			<key>jsonId</key>
+			<real>10</real>
+			<key>name</key>
+			<string>Colonial Congress (aka, General Congress)</string>
+			<key>notes</key>
+			<string>The passage of the Stamp Act, in March 1765, excited a spirit of resistance in the Colonies, that threatened open rebellion. The Massachusetts Assembly sent forth a circular letter to the other Colonies, proposing a General Congress of delegates from them, to be held in the city of New York in October following, for the purpose of consulting upon the public good. At the opening of the Convention, the following delegates appeared and took their seats. From Massachusetts, James Otis, Oliver Partridge, Timothy Ruggles; Rhode Island, Metcalf Bowler, Henry Ward; Connecticut, Eliphalet Dyer, David Rowland, William S. Johnson; New York, Robert R. Livingston, John Cruger, Philip Livingston, William Bayard, Leonard Lispenard; Pennsylvania, John Dickenson, John Morton, George Bryan; Maryland, William Murdock, Edward Tilghman, Thomas Ringgold; New Jersey, Robert Ogden, Hendrick Fisher, Joseph Borden; Delaware, Thomas McKean, Caesar Rodney; South Carolina, Thomas Lynch, Christopher Gadsden, John Rutledge. Timothy Ruggles, of Massachusetts, (who was a royalist during the Revolution), was, by ballot, elected President. They adopted a Declaration of Rights, a Petition to the King, and a Memorial to Parliament. The Declaration of Rights was penned by John Cruger, delegate from New York. He was at that time speaker of the Provincial Assembly, and Mayor of the city of New York. The Petition to the King was written by Robert R. Livingston, also a member from New York, who afterward had the high honor of administering the oath of office to Washington when he was inaugurated the first President of the United States.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Colonial Congress (aka, General Congress)</string>
+			<key>year</key>
+			<real>1765</real>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>hms_fowey</string>
+			<key>jsonId</key>
+			<real>11</real>
+			<key>name</key>
+			<string>HMS Fowey, Ship-of-War</string>
+			<key>notes</key>
+			<string>In 1777, the attempt of Lord Dunmore to take the ammunition, citing under a secret order from the British ministry, from the public magazines on board the Fowey ship-of-war, then lying off Williamsburg, excited the people to the highest pitch, and threatened open rebellion and armed resistance. This movement clearly divulged the premeditated design of disarming the people, and reducing them to slavery. The governor, finding resistance vain, finally agreed to pay for the powder, and was then allowed quietly to retire with his family on board the ship-of-war in the river.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>HMS Fowey, Ship-of-War</string>
+			<key>synopsis</key>
+			<string>Confiscating Gun Powder</string>
+			<key>year</key>
+			<real>1777</real>
+		</dict>
+		<dict>
+			<key>endYear</key>
+			<real>1794</real>
+			<key>imageName</key>
+			<string>Whiskey_Rebellion</string>
+			<key>jsonId</key>
+			<real>12</real>
+			<key>name</key>
+			<string>Whiskey Rebellion</string>
+			<key>notes</key>
+			<string>A portion of the people of the interior of Pennsylvania, violently opposed the excise law, it being a region where much whiskey was distilled, and hence the tax or duty amounted to a considerable resource. This excise law was adopted by Congress in 1790. In 1792, so insurrectionary had the people become in relation to the duty on distilled liquor, that Congress passed an act authorizing the President of the United States to call out the militia of the State, if necessary to enforce the laws. He withheld his power for nearly two years, but at length the Whiskey Rebellion assumed such a formidable aspect, that an army of fifteen thousand men were placed in the field. The rebellion ceased without a conflict.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Whiskey Rebellion</string>
+			<key>year</key>
+			<real>1792</real>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>Boston_Port_Bill</string>
+			<key>jsonId</key>
+			<real>13</real>
+			<key>name</key>
+			<string>Boston Port Bill</string>
+			<key>notes</key>
+			<string>On the thirty-first of March, 1774, the British Parliament passed an act for the punishment of the people of Boston for the destruction of tea in the harbor, on the sixteenth of December previous. It provided for the virtual and actual closing of the port. All importations and exportations were forbidden, and vessels were prohibited from entering or leaving that port. The Customs, Courts of Justice, and all government offices, were removed to Salem; and on the arrival of Governor Gage, a few days before the first of June (the time the act was to take effect), he called a meeting of the General Assembly of Massachusetts at Salem. Thus all business was suddenly crushed in Boston, and the inhabitants were reduced to great misery, overawed as they were by large bodies of armed troops. The people of the Colonies deeply sympathized with them, and lent them generous aid. And, strange as it may appear, the city of London subscribed one hundred and fifty thousand dollars for the poor of Boston!</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Boston Port Bill</string>
+			<key>synopsis</key>
+			<string>Punishment for the Tea Party</string>
+			<key>year</key>
+			<real>1774</real>
+		</dict>
+		<dict>
+			<key>asOfDate</key>
+			<string>1777-08-25</string>
+			<key>imageName</key>
+			<string>Brandywine_1777</string>
+			<key>jsonId</key>
+			<real>14</real>
+			<key>name</key>
+			<string>Defeat at Brandywine</string>
+			<key>notes</key>
+			<string>General Howe, finding it impracticable to reach Philadelphia by land, embarked his troops on board the British fleet, then lying of Sandy Hook, and proceeded to the Chesapeake Bay. His troops were landed at the mouth of Elk River, on the twenty-fifth of August, 1777, and that was the first intimation Washington had of his real destination. The British immediately commenced their march toward Philadelphia, and the Americans at the same time marched from that city to meet them. They met upon the river Brandywine, where the battle of that name, so disastrous to the Americans, occurred. It was there that La Fayette greatly distinguished himself, and was severely wounded.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Defeat at Brandywine</string>
+			<key>year</key>
+			<real>1777</real>
+		</dict>
+		<dict>
+			<key>asOfDate</key>
+			<string>1776-04-22</string>
+			<key>jsonId</key>
+			<real>15</real>
+			<key>name</key>
+			<string>North Carolina's First Move</string>
+			<key>notes</key>
+			<string>When the minds of the people seemed to be sufficiently prepared to receive the novel idea of independence of the British Crown, the colonial assemblies began to move in the matter. North Carolina was the first to take the bold, progressive step. On the twenty-second of April, 1776, the convention of North Carolina empowered their delegates in the General Congress 'to concur with those in the other colonies in declaring independence.'</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>North Carolina's First Move</string>
+			<key>synopsis</key>
+			<string>First to authorize delegates to vote for independence.</string>
+			<key>year</key>
+			<real>1776</real>
+		</dict>
+		<dict>
+			<key>asOfDate</key>
+			<string>1776-05-10</string>
+			<key>jsonId</key>
+			<real>16</real>
+			<key>name</key>
+			<string>Recommending State Governments</string>
+			<key>notes</key>
+			<string>On the tenth of May, 1776, the General Congress adopted a resolution recommending to the assemblies and colonies, where no sufficient government had been established, 'to adopt such government as should, in the opinion of the representatives of the people, best conduce to the happiness and safety of their constituents in particular, and America in general.' In the preamble to this resolution, Congress declared it to be 'irreconcilable to reason and good conscience for the colonists to take the oaths required for the support of the government under the Crown of Great Britain.' They also declared it necessary that all royal power should be suppressed, and 'all the powers of government exerted under the authority of the people of the colonies, for the preservation of internal peace, virtue, and good order, as well as for the defense of their lives, liberties, and properties, against the hostile invasions and cruel depredations of their enemies.' This was a bold and vigorous stride toward a declaration of independence.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Recommending State Governments</string>
+			<key>synopsis</key>
+			<string>Congress recommends that colonies form state governments independent of the Crown</string>
+			<key>year</key>
+			<real>1776</real>
+		</dict>
+		<dict>
+			<key>asOfDate</key>
+			<string>1776-06-07</string>
+			<key>jsonId</key>
+			<real>17</real>
+			<key>name</key>
+			<string>Independence Resolved</string>
+			<key>notes</key>
+			<string>The assembly of Virginia had instructed its delegates to propose a declaration of independence; and, as soon as the instructions arrived, the Virginia delegations appointed Mr. Lee to move a resolution conformably to it. Accordingly, on Friday, the seventh of June, Mr. Lee moved the resolution, (among others,) 'That these united colonies are, and of right ought to be, free and independent states; and that all political connection between them and the state of Great Britain is, and ought to be, totally dissolved.' The motion was seconded by John Adams of Massachusetts. Subsequently, the consideration of the resolutions was deferred until ten o'clock the next morning.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Independence Resolved</string>
+			<key>synopsis</key>
+			<string>Mr. Lee's Motion Before Congress</string>
+			<key>year</key>
+			<real>1776</real>
+		</dict>
+		<dict>
+			<key>asOfDate</key>
+			<string>1776-09-09</string>
+			<key>jsonId</key>
+			<real>18</real>
+			<key>name</key>
+			<string>Colonies to States</string>
+			<key>notes</key>
+			<string>On the ninth of September, 1776, Congress adopted the following resolution: 'That in all continental commissions where heretofore the words 'United Colonies' have been used, the style be altered in future to the 'United States.' In 1777, the red ground of the American flag was altered to thirteen red and white stripes, as an emblem of the thirteen states united in a war for liberty.</string>
+			<key>releaseStatus</key>
+			<true/>
+			<key>sortValue</key>
+			<string>Colonies to States</string>
+			<key>year</key>
+			<real>1776</real>
+		</dict>
+	</array>
+</dict>
+</plist>

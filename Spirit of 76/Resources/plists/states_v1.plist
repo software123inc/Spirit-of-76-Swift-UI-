@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>records</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>VA</string>
+			<key>imageName</key>
+			<string>virginia</string>
+			<key>jsonId</key>
+			<real>1</real>
+			<key>name</key>
+			<string>Virginia</string>
+			<key>sortValue</key>
+			<string>Virginia</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>DE</string>
+			<key>imageName</key>
+			<string>delaware</string>
+			<key>jsonId</key>
+			<real>2</real>
+			<key>name</key>
+			<string>Delaware</string>
+			<key>sortValue</key>
+			<string>Delaware</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>NJ</string>
+			<key>imageName</key>
+			<string>new_jersey</string>
+			<key>jsonId</key>
+			<real>3</real>
+			<key>name</key>
+			<string>New Jersey</string>
+			<key>sortValue</key>
+			<string>New Jersey</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>NY</string>
+			<key>imageName</key>
+			<string>new_york_colony</string>
+			<key>jsonId</key>
+			<real>4</real>
+			<key>name</key>
+			<string>New York</string>
+			<key>sortValue</key>
+			<string>New York</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>MA</string>
+			<key>imageName</key>
+			<string>massachusetts_colony</string>
+			<key>jsonId</key>
+			<real>5</real>
+			<key>name</key>
+			<string>Massachusetts</string>
+			<key>sortValue</key>
+			<string>Massachusetts</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>NH</string>
+			<key>imageName</key>
+			<string>new_hampshire</string>
+			<key>jsonId</key>
+			<real>6</real>
+			<key>name</key>
+			<string>New Hampshire</string>
+			<key>sortValue</key>
+			<string>New Hampshire</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>RI</string>
+			<key>imageName</key>
+			<string>rhode_island</string>
+			<key>jsonId</key>
+			<real>7</real>
+			<key>name</key>
+			<string>Rhode Island</string>
+			<key>sortValue</key>
+			<string>Rhode Island</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>CT</string>
+			<key>imageName</key>
+			<string>connecticut</string>
+			<key>jsonId</key>
+			<real>8</real>
+			<key>name</key>
+			<string>Connecticut</string>
+			<key>sortValue</key>
+			<string>Connecticut</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>MD</string>
+			<key>imageName</key>
+			<string>maryland</string>
+			<key>jsonId</key>
+			<real>9</real>
+			<key>name</key>
+			<string>Maryland</string>
+			<key>sortValue</key>
+			<string>Maryland</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>PA</string>
+			<key>imageName</key>
+			<string>pennsylvania</string>
+			<key>jsonId</key>
+			<real>10</real>
+			<key>name</key>
+			<string>Pennsylvania</string>
+			<key>sortValue</key>
+			<string>Pennsylvania</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>NC</string>
+			<key>imageName</key>
+			<string>north_carolina</string>
+			<key>jsonId</key>
+			<real>11</real>
+			<key>name</key>
+			<string>North Carolina</string>
+			<key>sortValue</key>
+			<string>North Carolina</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>SC</string>
+			<key>imageName</key>
+			<string>south_carolina</string>
+			<key>jsonId</key>
+			<real>12</real>
+			<key>name</key>
+			<string>South Carolina</string>
+			<key>sortValue</key>
+			<string>South Carolina</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>GA</string>
+			<key>imageName</key>
+			<string>georgia</string>
+			<key>jsonId</key>
+			<real>13</real>
+			<key>name</key>
+			<string>Georgia</string>
+			<key>sortValue</key>
+			<string>Georgia</string>
+		</dict>
+	</array>
+</dict>
+</plist>
