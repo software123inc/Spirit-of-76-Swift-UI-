@@ -46,7 +46,7 @@ struct EventImporter {
                     }
                     
                     let fr:NSFetchRequest<Event> = Event.fetchRequest()
-                    fr.predicate = NSPredicate(format: "name == %@", item.name)
+                    fr.predicate = NSPredicate(format: "jsonId == %d", item.jsonId)
                     
                     do {
                         let result = try performingContext.fetch(fr)

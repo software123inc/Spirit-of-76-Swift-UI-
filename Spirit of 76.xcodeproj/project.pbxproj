@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76A07B126744C4200042C42 /* StatePlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B026744C4200042C42 /* StatePlist.swift */; };
+		C76A07B326744F4800042C42 /* TopicPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B226744F4800042C42 /* TopicPlist.swift */; };
+		C76A07B52674532800042C42 /* WritingsPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B42674532800042C42 /* WritingsPlist.swift */; };
+		C76A07B72674545800042C42 /* CityPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B62674545800042C42 /* CityPlist.swift */; };
+		C76A07B92674555E00042C42 /* PersonPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B82674555E00042C42 /* PersonPlist.swift */; };
+		C76A07BB26745C3C00042C42 /* EducationPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07BA26745C3C00042C42 /* EducationPlist.swift */; };
+		C76A07BD26745F5000042C42 /* FactPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07BC26745F5000042C42 /* FactPlist.swift */; };
+		C76A07BF26745FF600042C42 /* ProfessionPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07BE26745FF600042C42 /* ProfessionPlist.swift */; };
+		C76A07C1267460A300042C42 /* AuthorshipPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07C0267460A300042C42 /* AuthorshipPlist.swift */; };
+		C76A07C3267461AC00042C42 /* QuotePlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07C2267461AC00042C42 /* QuotePlist.swift */; };
 		C770FD982673DD4C00BAB970 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FD972673DD4C00BAB970 /* ThemeManager.swift */; };
 		C770FD9A2673DD8100BAB970 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FD992673DD8100BAB970 /* Constants.swift */; };
 		C770FDA32673EC2C00BAB970 /* S123Common in Frameworks */ = {isa = PBXBuildFile; productRef = C770FDA22673EC2C00BAB970 /* S123Common */; };
@@ -19,15 +29,15 @@
 		C770FDB42674332B00BAB970 /* CountryPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDB32674332B00BAB970 /* CountryPlist.swift */; };
 		C770FDB626743D6900BAB970 /* events_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C770FDB526743D6900BAB970 /* events_v1.plist */; };
 		C770FDB826743D8F00BAB970 /* EventPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770FDB726743D8F00BAB970 /* EventPlist.swift */; };
-		C774365B26744A040087D85F /* signerFacts_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743651267449FC0087D85F /* signerFacts_v1.plist */; };
-		C774365C26744A040087D85F /* signerProfessions_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743652267449FD0087D85F /* signerProfessions_v1.plist */; };
-		C774365D26744A040087D85F /* signerEducation_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743653267449FE0087D85F /* signerEducation_v1.plist */; };
+		C774365B26744A040087D85F /* facts_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743651267449FC0087D85F /* facts_v1.plist */; };
+		C774365C26744A040087D85F /* professions_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743652267449FD0087D85F /* professions_v1.plist */; };
+		C774365D26744A040087D85F /* education_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743653267449FE0087D85F /* education_v1.plist */; };
 		C774365E26744A040087D85F /* states_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7743654267449FF0087D85F /* states_v1.plist */; };
 		C774365F26744A040087D85F /* quotes_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365526744A000087D85F /* quotes_v1.plist */; };
-		C774366026744A040087D85F /* signers_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365626744A000087D85F /* signers_v1.plist */; };
+		C774366026744A040087D85F /* persons_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365626744A000087D85F /* persons_v1.plist */; };
 		C774366126744A040087D85F /* cities_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365726744A010087D85F /* cities_v1.plist */; };
 		C774366226744A040087D85F /* writings_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365826744A020087D85F /* writings_v1.plist */; };
-		C774366326744A040087D85F /* signerWritings_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365926744A030087D85F /* signerWritings_v1.plist */; };
+		C774366326744A040087D85F /* authorships_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365926744A030087D85F /* authorships_v1.plist */; };
 		C774366426744A040087D85F /* topics_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365A26744A040087D85F /* topics_v1.plist */; };
 		C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */; };
 		C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1F26730B6000D098FE /* ContentView.swift */; };
@@ -51,6 +61,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C76A07B026744C4200042C42 /* StatePlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePlist.swift; sourceTree = "<group>"; };
+		C76A07B226744F4800042C42 /* TopicPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicPlist.swift; sourceTree = "<group>"; };
+		C76A07B42674532800042C42 /* WritingsPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingsPlist.swift; sourceTree = "<group>"; };
+		C76A07B62674545800042C42 /* CityPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPlist.swift; sourceTree = "<group>"; };
+		C76A07B82674555E00042C42 /* PersonPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonPlist.swift; sourceTree = "<group>"; };
+		C76A07BA26745C3C00042C42 /* EducationPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationPlist.swift; sourceTree = "<group>"; };
+		C76A07BC26745F5000042C42 /* FactPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactPlist.swift; sourceTree = "<group>"; };
+		C76A07BE26745FF600042C42 /* ProfessionPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionPlist.swift; sourceTree = "<group>"; };
+		C76A07C0267460A300042C42 /* AuthorshipPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorshipPlist.swift; sourceTree = "<group>"; };
+		C76A07C2267461AC00042C42 /* QuotePlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotePlist.swift; sourceTree = "<group>"; };
 		C770FD972673DD4C00BAB970 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		C770FD992673DD8100BAB970 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C770FDA42673F7D300BAB970 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
@@ -62,15 +82,15 @@
 		C770FDB32674332B00BAB970 /* CountryPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPlist.swift; sourceTree = "<group>"; };
 		C770FDB526743D6900BAB970 /* events_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = events_v1.plist; sourceTree = "<group>"; };
 		C770FDB726743D8F00BAB970 /* EventPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPlist.swift; sourceTree = "<group>"; };
-		C7743651267449FC0087D85F /* signerFacts_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerFacts_v1.plist; sourceTree = "<group>"; };
-		C7743652267449FD0087D85F /* signerProfessions_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerProfessions_v1.plist; sourceTree = "<group>"; };
-		C7743653267449FE0087D85F /* signerEducation_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerEducation_v1.plist; sourceTree = "<group>"; };
+		C7743651267449FC0087D85F /* facts_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = facts_v1.plist; sourceTree = "<group>"; };
+		C7743652267449FD0087D85F /* professions_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = professions_v1.plist; sourceTree = "<group>"; };
+		C7743653267449FE0087D85F /* education_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = education_v1.plist; sourceTree = "<group>"; };
 		C7743654267449FF0087D85F /* states_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = states_v1.plist; sourceTree = "<group>"; };
 		C774365526744A000087D85F /* quotes_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes_v1.plist; sourceTree = "<group>"; };
-		C774365626744A000087D85F /* signers_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signers_v1.plist; sourceTree = "<group>"; };
+		C774365626744A000087D85F /* persons_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = persons_v1.plist; sourceTree = "<group>"; };
 		C774365726744A010087D85F /* cities_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities_v1.plist; sourceTree = "<group>"; };
 		C774365826744A020087D85F /* writings_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = writings_v1.plist; sourceTree = "<group>"; };
-		C774365926744A030087D85F /* signerWritings_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signerWritings_v1.plist; sourceTree = "<group>"; };
+		C774365926744A030087D85F /* authorships_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = authorships_v1.plist; sourceTree = "<group>"; };
 		C774365A26744A040087D85F /* topics_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics_v1.plist; sourceTree = "<group>"; };
 		C7E2DF1A26730B6000D098FE /* Spirit of 76.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spirit of 76.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirit_of_76App.swift; sourceTree = "<group>"; };
@@ -125,15 +145,15 @@
 		C770FDA92674187800BAB970 /* plists */ = {
 			isa = PBXGroup;
 			children = (
+				C774365926744A030087D85F /* authorships_v1.plist */,
 				C774365726744A010087D85F /* cities_v1.plist */,
 				C770FDAA2674188300BAB970 /* countries_v1.plist */,
+				C7743653267449FE0087D85F /* education_v1.plist */,
 				C770FDB526743D6900BAB970 /* events_v1.plist */,
+				C7743651267449FC0087D85F /* facts_v1.plist */,
+				C774365626744A000087D85F /* persons_v1.plist */,
+				C7743652267449FD0087D85F /* professions_v1.plist */,
 				C774365526744A000087D85F /* quotes_v1.plist */,
-				C7743653267449FE0087D85F /* signerEducation_v1.plist */,
-				C7743651267449FC0087D85F /* signerFacts_v1.plist */,
-				C7743652267449FD0087D85F /* signerProfessions_v1.plist */,
-				C774365626744A000087D85F /* signers_v1.plist */,
-				C774365926744A030087D85F /* signerWritings_v1.plist */,
 				C7743654267449FF0087D85F /* states_v1.plist */,
 				C774365A26744A040087D85F /* topics_v1.plist */,
 				C774365826744A020087D85F /* writings_v1.plist */,
@@ -144,8 +164,18 @@
 		C770FDB2267432F300BAB970 /* plist Models */ = {
 			isa = PBXGroup;
 			children = (
+				C76A07C0267460A300042C42 /* AuthorshipPlist.swift */,
+				C76A07B62674545800042C42 /* CityPlist.swift */,
 				C770FDB32674332B00BAB970 /* CountryPlist.swift */,
+				C76A07BA26745C3C00042C42 /* EducationPlist.swift */,
 				C770FDB726743D8F00BAB970 /* EventPlist.swift */,
+				C76A07BC26745F5000042C42 /* FactPlist.swift */,
+				C76A07B82674555E00042C42 /* PersonPlist.swift */,
+				C76A07BE26745FF600042C42 /* ProfessionPlist.swift */,
+				C76A07B026744C4200042C42 /* StatePlist.swift */,
+				C76A07B226744F4800042C42 /* TopicPlist.swift */,
+				C76A07B42674532800042C42 /* WritingsPlist.swift */,
+				C76A07C2267461AC00042C42 /* QuotePlist.swift */,
 			);
 			path = "plist Models";
 			sourceTree = "<group>";
@@ -299,18 +329,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E2DF4526730CB500D098FE /* signerProfessions.json in Resources */,
-				C774365C26744A040087D85F /* signerProfessions_v1.plist in Resources */,
+				C774365C26744A040087D85F /* professions_v1.plist in Resources */,
 				C7E2DF4126730CB500D098FE /* cities.json in Resources */,
 				C7E2DF2526730B6300D098FE /* Preview Assets.xcassets in Resources */,
-				C774365D26744A040087D85F /* signerEducation_v1.plist in Resources */,
-				C774365B26744A040087D85F /* signerFacts_v1.plist in Resources */,
+				C774365D26744A040087D85F /* education_v1.plist in Resources */,
+				C774365B26744A040087D85F /* facts_v1.plist in Resources */,
 				C7E2DF4726730CB500D098FE /* countries.json in Resources */,
 				C770FDB626743D6900BAB970 /* events_v1.plist in Resources */,
 				C7E2DF4226730CB500D098FE /* signerWritings.json in Resources */,
 				C770FDAB2674188300BAB970 /* countries_v1.plist in Resources */,
-				C774366326744A040087D85F /* signerWritings_v1.plist in Resources */,
+				C774366326744A040087D85F /* authorships_v1.plist in Resources */,
 				C7E2DF4626730CB500D098FE /* writings.json in Resources */,
-				C774366026744A040087D85F /* signers_v1.plist in Resources */,
+				C774366026744A040087D85F /* persons_v1.plist in Resources */,
 				C7E2DF4826730CB500D098FE /* quotes.json in Resources */,
 				C774365F26744A040087D85F /* quotes_v1.plist in Resources */,
 				C7E2DF4326730CB500D098FE /* topics.json in Resources */,
@@ -335,18 +365,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76A07B92674555E00042C42 /* PersonPlist.swift in Sources */,
 				C770FDB826743D8F00BAB970 /* EventPlist.swift in Sources */,
+				C76A07B52674532800042C42 /* WritingsPlist.swift in Sources */,
 				C770FDA82673F89F00BAB970 /* TypeAliases.swift in Sources */,
+				C76A07BF26745FF600042C42 /* ProfessionPlist.swift in Sources */,
+				C76A07BD26745F5000042C42 /* FactPlist.swift in Sources */,
 				C770FDA52673F7D300BAB970 /* JSONHelper.swift in Sources */,
 				C7E2DF2A26730B6300D098FE /* Spirit_of_76.xcdatamodeld in Sources */,
+				C76A07B126744C4200042C42 /* StatePlist.swift in Sources */,
 				C7E2DF2726730B6300D098FE /* Persistence.swift in Sources */,
+				C76A07B72674545800042C42 /* CityPlist.swift in Sources */,
 				C770FD982673DD4C00BAB970 /* ThemeManager.swift in Sources */,
 				C770FDB42674332B00BAB970 /* CountryPlist.swift in Sources */,
+				C76A07C1267460A300042C42 /* AuthorshipPlist.swift in Sources */,
 				C770FDB12674273800BAB970 /* UserDefaultKeys.swift in Sources */,
+				C76A07B326744F4800042C42 /* TopicPlist.swift in Sources */,
 				C770FDAD267424E600BAB970 /* PListImporter.swift in Sources */,
 				C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */,
 				C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */,
+				C76A07C3267461AC00042C42 /* QuotePlist.swift in Sources */,
 				C770FDAF267425E300BAB970 /* PListSeeder.swift in Sources */,
+				C76A07BB26745C3C00042C42 /* EducationPlist.swift in Sources */,
 				C770FD9A2673DD8100BAB970 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

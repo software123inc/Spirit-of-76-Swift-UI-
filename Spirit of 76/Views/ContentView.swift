@@ -21,7 +21,7 @@ struct ContentView: View {
             Text("Hello")
             List {
                 ForEach(items) { item in
-                    Text("Item at \(item.lastName!)")
+                    Text("\(item.firstName!) \(item.lastName!)")
                 }
                 .onDelete(perform: deleteItems)
             }

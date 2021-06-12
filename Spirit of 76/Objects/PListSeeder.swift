@@ -18,6 +18,16 @@ struct PListSeeder {
         PersistenceController.shared.container.performBackgroundTask {
             CountryImporter.shared.doImport_v1(inContext: $0)
             EventImporter.shared.doImport_v1(inContext: $0)
+            StateImporter.shared.doImport_v1(inContext: $0)
+            TopicImporter.shared.doImport_v1(inContext: $0)
+            WritingImporter.shared.doImport_v1(inContext: $0)
+            CityImporter.shared.doImport_v1(inContext: $0)
+            PersonImporter.shared.doImport_v1(inContext: $0)
+            EducationImporter.shared.doImport_v1(inContext: $0)
+            FactImporter.shared.doImport_v1(inContext: $0)
+            ProfessionImporter.shared.doImport_v1(inContext: $0)
+            AuthorshipImporter.shared.doImport_v1(inContext: $0)
+            QuoteImporter.shared.doImport_v1(inContext: $0)
         }
     }
     
