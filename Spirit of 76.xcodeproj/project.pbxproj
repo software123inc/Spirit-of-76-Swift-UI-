@@ -38,6 +38,11 @@
 		C774366226744A040087D85F /* writings_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365826744A020087D85F /* writings_v1.plist */; };
 		C774366326744A040087D85F /* authorships_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365926744A030087D85F /* authorships_v1.plist */; };
 		C774366426744A040087D85F /* topics_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365A26744A040087D85F /* topics_v1.plist */; };
+		C7A24E4E26753FA7000D1952 /* ContentViewBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */; };
+		C7A24E522675409A000D1952 /* FoundersTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E512675409A000D1952 /* FoundersTabItem.swift */; };
+		C7A24E542675416D000D1952 /* FoundersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E532675416D000D1952 /* FoundersList.swift */; };
+		C7A24E562675420E000D1952 /* FounderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E552675420E000D1952 /* FounderRow.swift */; };
+		C7A24E5826754280000D1952 /* FounderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E5726754280000D1952 /* FounderDetail.swift */; };
 		C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */; };
 		C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1F26730B6000D098FE /* ContentView.swift */; };
 		C7E2DF2226730B6300D098FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF2126730B6300D098FE /* Assets.xcassets */; };
@@ -77,6 +82,11 @@
 		C774365826744A020087D85F /* writings_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = writings_v1.plist; sourceTree = "<group>"; };
 		C774365926744A030087D85F /* authorships_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = authorships_v1.plist; sourceTree = "<group>"; };
 		C774365A26744A040087D85F /* topics_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics_v1.plist; sourceTree = "<group>"; };
+		C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBackup.swift; sourceTree = "<group>"; };
+		C7A24E512675409A000D1952 /* FoundersTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersTabItem.swift; sourceTree = "<group>"; };
+		C7A24E532675416D000D1952 /* FoundersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersList.swift; sourceTree = "<group>"; };
+		C7A24E552675420E000D1952 /* FounderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FounderRow.swift; sourceTree = "<group>"; };
+		C7A24E5726754280000D1952 /* FounderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FounderDetail.swift; sourceTree = "<group>"; };
 		C7E2DF1A26730B6000D098FE /* Spirit of 76.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spirit of 76.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirit_of_76App.swift; sourceTree = "<group>"; };
 		C7E2DF1F26730B6000D098FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +160,25 @@
 			path = "plist Models";
 			sourceTree = "<group>";
 		};
+		C7A24E4F2675407A000D1952 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				C7A24E5026754083000D1952 /* Founders */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		C7A24E5026754083000D1952 /* Founders */ = {
+			isa = PBXGroup;
+			children = (
+				C7A24E512675409A000D1952 /* FoundersTabItem.swift */,
+				C7A24E532675416D000D1952 /* FoundersList.swift */,
+				C7A24E552675420E000D1952 /* FounderRow.swift */,
+				C7A24E5726754280000D1952 /* FounderDetail.swift */,
+			);
+			path = Founders;
+			sourceTree = "<group>";
+		};
 		C7E2DF1126730B6000D098FE = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +221,9 @@
 		C7E2DF3126730C7100D098FE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C7A24E4F2675407A000D1952 /* Tabs */,
 				C7E2DF1F26730B6000D098FE /* ContentView.swift */,
+				C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,15 +345,20 @@
 				C76A07B72674545800042C42 /* CityPlist.swift in Sources */,
 				C770FD982673DD4C00BAB970 /* ThemeManager.swift in Sources */,
 				C770FDB42674332B00BAB970 /* CountryPlist.swift in Sources */,
+				C7A24E562675420E000D1952 /* FounderRow.swift in Sources */,
 				C76A07C1267460A300042C42 /* AuthorshipPlist.swift in Sources */,
+				C7A24E4E26753FA7000D1952 /* ContentViewBackup.swift in Sources */,
+				C7A24E542675416D000D1952 /* FoundersList.swift in Sources */,
 				C770FDB12674273800BAB970 /* UserDefaultKeys.swift in Sources */,
 				C76A07B326744F4800042C42 /* TopicPlist.swift in Sources */,
 				C770FDAD267424E600BAB970 /* PListImporter.swift in Sources */,
 				C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */,
 				C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */,
 				C76A07C3267461AC00042C42 /* QuotePlist.swift in Sources */,
+				C7A24E522675409A000D1952 /* FoundersTabItem.swift in Sources */,
 				C770FDAF267425E300BAB970 /* PListSeeder.swift in Sources */,
 				C76A07BB26745C3C00042C42 /* EducationPlist.swift in Sources */,
+				C7A24E5826754280000D1952 /* FounderDetail.swift in Sources */,
 				C770FD9A2673DD8100BAB970 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.askeduserve.SpritOf76;
+				PRODUCT_BUNDLE_IDENTIFIER = us.eduserve.spiritOf76;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,7 +521,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.askeduserve.SpritOf76;
+				PRODUCT_BUNDLE_IDENTIFIER = us.eduserve.spiritOf76;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
