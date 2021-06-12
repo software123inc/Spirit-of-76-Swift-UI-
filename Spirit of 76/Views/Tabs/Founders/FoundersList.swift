@@ -14,7 +14,7 @@ struct FoundersList: View {
         entity: Person.entity(),
         sortDescriptors: [NSSortDescriptor(keyPath: \Person.lastName, ascending: true),
                           NSSortDescriptor(keyPath: \Person.firstName, ascending: true)],
-        predicate: NSPredicate(format: "releaseStatus == YES"),
+        predicate: K.Predicate.isReleased,
         animation: .default)
     private var results: FetchedResults<Person>
     

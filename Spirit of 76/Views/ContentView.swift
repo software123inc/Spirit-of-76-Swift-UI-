@@ -18,6 +18,26 @@ struct ContentView: View {
                     .tabItem {
                         FoundersTabItem()
                     }
+                Text("Documents")
+                    .tabItem {
+                        DocumentsTabItem()
+                    }
+                EventsList()
+                    .tabItem {
+                        EventsTabItem()
+                    }
+                TopicsList()
+                    .tabItem {
+                        TopicsTabItem()
+                    }
+                Text("Favorites")
+                    .tabItem {
+                        FavoritesTabItem()
+                    }
+                AboutList()
+                    .tabItem {
+                        AboutTabItem()
+                    }
             }
         }
     }

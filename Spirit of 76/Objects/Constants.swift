@@ -21,10 +21,10 @@ struct K {
     
     struct Image {
         static let declarationBlurredBkgnd = UIImage(named: "declaration_pale_blurred")
-        static let fife_and_drum = UIImage.init(named: "Fife_and_Drum")
-        static let libertyBell = UIImage.init(named: "LibertyBell")
-        static let star = UIImage.init(systemName: "star")
-        static let star_filled = UIImage.init(systemName: "star.fill")
+        static let fife_and_drum = UIImage(named: "Fife_and_Drum")
+        static let libertyBell = UIImage(named: "LibertyBell")
+        static let star = UIImage(systemName: "star")
+        static let star_filled = UIImage(systemName: "star.fill")
     }
     
     struct ImageView {
@@ -53,116 +53,4 @@ struct K {
         static let isFavorite = NSPredicate.init(format: "isFavorite == true")
         static let isReleased = NSPredicate.init(format: "releaseStatus == true")
     }
-    
-    struct CacheName {
-        static let eventsCache = "eventsCache"
-        static let personCache = "personCache"
-        static let topicCache = "topicCache"
-    }
-    
-    struct SegueID {
-        static let showAboutDetails = "showAboutDetails"
-        static let showPersonDetail = "showPersonDetail"
-        static let showEventDetail = "showEventDetail"
-        static let showTopicDetail = "showTopicDetail"
-        static let showEducation = "showEducation"
-        static let showFavoriteDetail = "showFavoriteDetail"
-        static let showFacts = "showFacts"
-        static let showProfessions = "showProfessions"
-        static let showQuotes = "showQuotes"
-        static let addCardSummaryContent = "addCardSummaryContent"
-        static let moreDetailTextPopover = "moreDetailTextPopover"
-        static let showFavoriteSigner = "showFavoriteSigner"
-        static let showFavoriteEvent = "showFavoriteEvent"
-        static let showFavoriteTopic = "showFavoriteTopic"
-    }
-    
-    struct TVCIdentifier {
-        static let aboutCell = "AboutCell"
-        static let eventCell = "EventCell"
-        static let personCell = "PersonCell"
-        static let topicCell = "TopicCell"
-        static let favoriteCell = "FavoriteCell"
-    }
-    
-    struct ViewControllerID {
-        static let cardSummaryContent = "CardSummaryContent"
-    }
 }
-
-typealias Section = SectionType
-enum SectionType {
-    case main
-}
-
-typealias FavoriteSection = FavoriteSectionType
-enum FavoriteSectionType: Int, CaseIterable {
-    case education = 0, event, fact, person, profession, quote, topic, documents
-    
-    func description() -> String {
-        switch self {
-            case .documents:
-                return "Documents"
-            case .education:
-                return "Education"
-            case .event:
-                return "Events"
-            case .fact:
-                return "Facts"
-            case .person:
-                return "Signers"
-            case .profession:
-                return "Professions"
-            case .quote:
-                return "Quotes"
-            case .topic:
-                return "Topics"
-        }
-    }
-    
-    static func typeFromSectionName(_ sectionName:FavoriteSectionEntityNames) -> FavoriteSectionType {
-        switch sectionName {
-            case .documents: return .documents
-            case .education: return .education
-            case .event: return .event
-            case .fact: return .fact
-            case .person: return .person
-            case .profession: return .profession
-            case .quote: return .quote
-            case .topic: return .topic
-        }
-    }
-}
-
-enum FavoriteSectionEntityNames: String, CaseIterable {
-    case documents = "Documents"
-    case education = "Education"
-    case event = "Event"
-    case fact = "Fact"
-    case person = "Person"
-    case profession = "Profession"
-    case quote = "Quote"
-    case topic = "Topic"
-    
-    func description() -> String {
-        switch self {
-            case .documents:
-                return "Documents"
-            case .education:
-                return "Education"
-            case .event:
-                return "Events"
-            case .fact:
-                return "Facts"
-            case .person:
-                return "Signers"
-            case .profession:
-                return "Professions"
-            case .quote:
-                return "Quotes"
-            case .topic:
-                return "Topics"
-        }
-    }
-}
-

@@ -28,7 +28,7 @@ struct QuoteImporter {
         let udKey = UserDefaultKeys.plist_quotes_v1
         
         if !UserDefaults.standard.contains(key:udKey) || !UserDefaults.standard.bool(forKey: udKey) {
-            DDLogInfo("Importing \(itemType)s v1.")
+            DDLogVerbose("Importing \(itemType)s v1.")
             let resourceName = "\(itemType)s_v1".lowercased()
             if let plistItems = PListImporter.shared.itemList(forResource: resourceName, root: "records") {
                 var transformSuccess = true
@@ -81,7 +81,7 @@ struct QuoteImporter {
             }
         }
         else {
-            DDLogInfo("Bypass Importing \(itemType)s v1.")
+            DDLogVerbose("Bypass Importing \(itemType)s v1.")
         }
     }
 }

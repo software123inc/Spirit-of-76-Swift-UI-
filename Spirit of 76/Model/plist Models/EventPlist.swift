@@ -34,7 +34,7 @@ struct EventImporter {
         let udKey = UserDefaultKeys.plist_events_v1
         
         if !UserDefaults.standard.contains(key:udKey) || !UserDefaults.standard.bool(forKey: udKey) {
-            DDLogInfo("Importing \(itemType)s v1.")
+            DDLogVerbose("Importing \(itemType)s v1.")
             let resourceName = "events_v1"
             if let plistItems = PListImporter.shared.itemList(forResource: resourceName, root: "records") {
                 var transformSuccess = true
@@ -90,7 +90,7 @@ struct EventImporter {
             }
         }
         else {
-            DDLogInfo("Bypass Importing \(itemType)s v1.")
+            DDLogVerbose("Bypass Importing \(itemType)s v1.")
         }
     }
 }

@@ -28,7 +28,7 @@ struct StateImporter {
         let udKey = UserDefaultKeys.plist_states_v1
         
         if !UserDefaults.standard.contains(key:udKey) || !UserDefaults.standard.bool(forKey: udKey) {
-            DDLogInfo("Importing \(itemType)s v1.")
+            DDLogVerbose("Importing \(itemType)s v1.")
             let resourceName = "states_v1"
             if let plistItems = PListImporter.shared.itemList(forResource: resourceName, root: "records") {
                 var transformSuccess = true
@@ -79,7 +79,7 @@ struct StateImporter {
             }
         }
         else {
-            DDLogInfo("Bypass Importing \(itemType)s v1.")
+            DDLogVerbose("Bypass Importing \(itemType)s v1.")
         }
     }
 }

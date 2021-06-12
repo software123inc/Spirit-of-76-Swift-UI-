@@ -29,7 +29,7 @@ struct EducationImporter {
         let udKey = UserDefaultKeys.plist_education_v1
         
         if !UserDefaults.standard.contains(key:udKey) || !UserDefaults.standard.bool(forKey: udKey) {
-            DDLogInfo("Importing \(itemType)s v1.")
+            DDLogVerbose("Importing \(itemType)s v1.")
             let resourceName = "\(itemType)_v1".lowercased()
             if let plistItems = PListImporter.shared.itemList(forResource: resourceName, root: "records") {
                 var transformSuccess = true
@@ -82,7 +82,7 @@ struct EducationImporter {
             }
         }
         else {
-            DDLogInfo("Bypass Importing \(itemType)s v1.")
+            DDLogVerbose("Bypass Importing \(itemType)s v1.")
         }
     }
 }
