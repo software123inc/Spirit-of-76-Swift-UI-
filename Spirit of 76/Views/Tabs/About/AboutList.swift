@@ -45,20 +45,20 @@ struct AboutList: View {
                 }
             }
             Section(header: ApplicatonSectionHeader()) {
-                HStack {
-                    NavigationLink(destination: CreditsView()) {
+                NavigationLink(destination: CreditsView()) {
+                    HStack {
                         Image(systemName: "book.circle")
                         Text("Credits")
                     }
-                    .isDetailLink(true)
                 }
-                HStack {
-                    NavigationLink(destination: AppInfoView()) {
+                .isDetailLink(true)
+                NavigationLink(destination: AppInfoView()) {
+                    HStack {
                         Image(systemName: "info.circle")
                         Text("App Info")
                     }
-                    .isDetailLink(true)
                 }
+                .isDetailLink(true)
             }
         }.listStyle(GroupedListStyle())
     }

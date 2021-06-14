@@ -20,20 +20,17 @@ struct PListSeeder {
         CountryImporter.shared.doImport_v1(inContext: vc)
         StateImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state
         PersonImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state, country
-        
-        PersistenceController.shared.container.performBackgroundTask {
-            EventImporter.shared.doImport_v1(inContext: $0)
-            TopicImporter.shared.doImport_v1(inContext: $0)
-            WritingImporter.shared.doImport_v1(inContext: $0)
+        EventImporter.shared.doImport_v1(inContext: vc)
+        TopicImporter.shared.doImport_v1(inContext: vc)
+        WritingImporter.shared.doImport_v1(inContext: vc)
 
-            CityImporter.shared.doImport_v1(inContext: $0) // ForeignKey > state
+        CityImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state
 
-            EducationImporter.shared.doImport_v1(inContext: $0)
-            FactImporter.shared.doImport_v1(inContext: $0)
-            ProfessionImporter.shared.doImport_v1(inContext: $0)
-            AuthorshipImporter.shared.doImport_v1(inContext: $0)
-            QuoteImporter.shared.doImport_v1(inContext: $0)
-        }
+        EducationImporter.shared.doImport_v1(inContext: vc)
+        FactImporter.shared.doImport_v1(inContext: vc)
+        ProfessionImporter.shared.doImport_v1(inContext: vc)
+        AuthorshipImporter.shared.doImport_v1(inContext: vc)
+        QuoteImporter.shared.doImport_v1(inContext: vc)
     }
     
     func transformPListRecords<C:Codable>(_ records:plistRecord, ofType codeable:C.Type, transformationHandler:plistDataSetToManagedObjectTransformerClosure) {
