@@ -19,47 +19,54 @@ struct AboutList: View {
     let messageBodyIsHtml = true
     
     var body: some View {
-        List {
-            Section(header: FeedbackSectionHeader()) {
-                HStack {
-                    Image(systemName: "star.circle")
-                    Text("Rate Me")
-                    Button("") {
-                        SKStoreReviewController.requestReviewInCurrentScene()
+        NavigationView {
+            List {
+                Section(header: FeedbackSectionHeader()) {
+                    HStack {
+                        Image(systemName: "star.circle")
+                        Text("Rate Me")
+                        Button("") {
+                            SKStoreReviewController.requestReviewInCurrentScene()
+                        }
+                    }
+                    HStack {
+                        Image(systemName: "envelope.circle")
+                        Text("Send Email")
+                        Button("") {
+                            self.isShowingMailView.toggle()
+                        }
+                        .disabled(!MFMailComposeViewController.canSendMail())
+                        .sheet(isPresented: $isShowingMailView) {
+                            MailView(result: self.$result,
+                                     recipients: self.recipients,
+                                     subject: self.subject,
+                                     messageBody: self.messageBody,
+                                     messageBodyIsHtml: self.messageBodyIsHtml)
+                        }
                     }
                 }
-                HStack {
-                    Image(systemName: "envelope.circle")
-                    Text("Send Email")
-                    Button("") {
-                        self.isShowingMailView.toggle()
+                Section(header: ApplicatonSectionHeader()) {
+                    NavigationLink(destination: CreditsView()) {
+                        HStack {
+                            Image(systemName: "book.circle")
+                            Text("Credits")
+                        }
                     }
-                    .disabled(!MFMailComposeViewController.canSendMail())
-                    .sheet(isPresented: $isShowingMailView) {
-                        MailView(result: self.$result,
-                                 recipients: self.recipients,
-                                 subject: self.subject,
-                                 messageBody: self.messageBody,
-                                 messageBodyIsHtml: self.messageBodyIsHtml)
+                    .isDetailLink(true)
+                    
+                    NavigationLink(destination: AppInfoView()) {
+                        HStack {
+                            Image(systemName: "info.circle")
+                            Text("App Info")
+                        }
                     }
+                    .isDetailLink(true)
                 }
             }
-            Section(header: ApplicatonSectionHeader()) {
-                NavigationLink(destination: CreditsView()) {
-                    HStack {
-                        Image(systemName: "book.circle")
-                        Text("Credits")
-                    }
-                }
-                .isDetailLink(true)
-                NavigationLink(destination: AppInfoView()) {
-                    HStack {
-                        Image(systemName: "info.circle")
-                        Text("App Info")
-                    }
-                }
-                .isDetailLink(true)
-            }
-        }.listStyle(GroupedListStyle())
+            .listStyle(GroupedListStyle())
+            .navigationTitle("About")
+            .navigationBarTitleDisplayMode(.inline)
+            
+        }
     }
 }

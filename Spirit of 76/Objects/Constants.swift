@@ -43,6 +43,8 @@ struct K {
     struct ManObjKey {
         static let asOfDate = "asOfDate"
         static let entity = "entity"
+        static let firstName = "firstName"
+        static let lastName = "lastName"
         static let name = "name"
         static let sortValue = "sortValue"
         static let quotation = "quotation"
@@ -58,6 +60,7 @@ struct K {
         static let sortValueASC = NSSortDescriptor(key: K.ManObjKey.sortValue, ascending: true)
         static let titleASC = NSSortDescriptor(key: K.ManObjKey.title, ascending: true)
         static let yearASC = NSSortDescriptor(key: K.ManObjKey.year, ascending: true)
+        static let lastFirstASC = [NSSortDescriptor(key: K.ManObjKey.lastName, ascending: true), NSSortDescriptor(key: K.ManObjKey.firstName, ascending: true)]
     }
     
     struct Predicate {

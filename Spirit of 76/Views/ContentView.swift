@@ -10,7 +10,8 @@ import CoreData
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
-
+    @State var showIPadWelcomView = true
+    
     var body: some View {
         ZStack {
             TabView() {
@@ -38,6 +39,19 @@ struct ContentView: View {
                     .tabItem {
                         AboutTabItem()
                     }
+            }
+            if UIDevice.current.localizedModel == "iPad" && UIDevice.current.orientation.isPortrait {
+                WelcomeView()
+                    .opacity(showIPadWelcomView ? 1 : 0)
+                    .zIndex(showIPadWelcomView ? 1 : 0)
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                            withAnimation() {
+                                self.showIPadWelcomView = false
+                            }
+                        }
+                    }
+                    .ignoresSafeArea(.all)
             }
         }
     }
