@@ -13,7 +13,7 @@ struct DocumentsList: View {
             List {
                 HStack {
                     Image(systemName: "doc.plaintext")
-                    NavigationLink(destination: AttributedTextView(DeclarationOfIndependence.shared.attributedString())) {
+                    NavigationLink(destination: AttributedTextView(DeclarationOfIndependence.shared.attributedString(), navTitle: "Declaration of Independence")) {
                         VStack(alignment: .leading, spacing: 5) {
                             Text("Declaration of Independence")
                             Text("1776")
@@ -25,7 +25,7 @@ struct DocumentsList: View {
                 }
                 HStack {
                     Image(systemName: "doc.plaintext")
-                    NavigationLink(destination: AttributedTextView(ArticlesOfConfederation.shared.attributedString())) {
+                    NavigationLink(destination: AttributedTextView(ArticlesOfConfederation.shared.attributedString(), navTitle: "Articles of Confederation")) {
                         VStack(alignment: .leading, spacing: 5) {
                             Text("Articles of Confederation")
                             Text("1777")
@@ -37,7 +37,7 @@ struct DocumentsList: View {
                 }
                 HStack {
                     Image(systemName: "doc.plaintext")
-                    NavigationLink(destination: AttributedTextView(USConstitution.shared.attributedString())) {
+                    NavigationLink(destination: AttributedTextView(USConstitution.shared.attributedString(), navTitle: "U.S. Constitution")) {
                         VStack(alignment: .leading, spacing: 5) {
                             Text("U.S. Constitution")
                             Text("1787")

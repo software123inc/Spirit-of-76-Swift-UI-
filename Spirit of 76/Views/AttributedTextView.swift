@@ -16,11 +16,13 @@ struct AttributedTextBlock {
 
 struct AttributedTextView: View {
     var attributedText: NSAttributedString?
+    var navTitle: String
     
     private var descriptions: [AttributedTextBlock] = []
     
-    init(_ attributedText: NSAttributedString?) {
+    init(_ attributedText: NSAttributedString?, navTitle:String) {
         self.attributedText = attributedText
+        self.navTitle = navTitle
         
         self.extractDescriptions()
     }
@@ -47,11 +49,14 @@ struct AttributedTextView: View {
                 result + text
             }
         }
+        .padding()
+        .navigationTitle(navTitle)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct AttributedText_Previews: PreviewProvider {
     static var previews: some View {
-        AttributedTextView(DeclarationOfIndependence.shared.attributedString())
+        AttributedTextView(DeclarationOfIndependence.shared.attributedString(), navTitle: "Declaration of Independence")
     }
 }
