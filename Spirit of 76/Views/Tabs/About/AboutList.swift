@@ -10,6 +10,20 @@ import StoreKit
 import MessageUI
 
 struct AboutList: View {
+    
+    var body: some View {
+        if UIDevice.current.localizedModel == "iPad" {
+            NavigationView {
+                AboutListing()
+            }
+        }
+        else {
+            AboutListing()
+        }
+    }
+}
+
+fileprivate struct AboutListing: View {
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
     
@@ -19,54 +33,51 @@ struct AboutList: View {
     let messageBodyIsHtml = true
     
     var body: some View {
-        NavigationView {
-            List {
-                Section(header: FeedbackSectionHeader()) {
-                    HStack {
-                        Image(systemName: "star.circle")
-                        Text("Rate Me")
-                        Button("") {
-                            SKStoreReviewController.requestReviewInCurrentScene()
-                        }
-                    }
-                    HStack {
-                        Image(systemName: "envelope.circle")
-                        Text("Send Email")
-                        Button("") {
-                            self.isShowingMailView.toggle()
-                        }
-                        .disabled(!MFMailComposeViewController.canSendMail())
-                        .sheet(isPresented: $isShowingMailView) {
-                            MailView(result: self.$result,
-                                     recipients: self.recipients,
-                                     subject: self.subject,
-                                     messageBody: self.messageBody,
-                                     messageBodyIsHtml: self.messageBodyIsHtml)
-                        }
+        List {
+            Section(header: FeedbackSectionHeader()) {
+                HStack {
+                    Image(systemName: "star.circle")
+                    Text("Rate Me")
+                    Button("") {
+                        SKStoreReviewController.requestReviewInCurrentScene()
                     }
                 }
-                Section(header: ApplicatonSectionHeader()) {
-                    NavigationLink(destination: CreditsView()) {
-                        HStack {
-                            Image(systemName: "book.circle")
-                            Text("Credits")
-                        }
+                HStack {
+                    Image(systemName: "envelope.circle")
+                    Text("Send Email")
+                    Button("") {
+                        self.isShowingMailView.toggle()
                     }
-                    .isDetailLink(true)
-                    
-                    NavigationLink(destination: AppInfoView()) {
-                        HStack {
-                            Image(systemName: "info.circle")
-                            Text("App Info")
-                        }
+                    .disabled(!MFMailComposeViewController.canSendMail())
+                    .sheet(isPresented: $isShowingMailView) {
+                        MailView(result: self.$result,
+                                 recipients: self.recipients,
+                                 subject: self.subject,
+                                 messageBody: self.messageBody,
+                                 messageBodyIsHtml: self.messageBodyIsHtml)
                     }
-                    .isDetailLink(true)
                 }
             }
-            .listStyle(GroupedListStyle())
-            .navigationTitle("About")
-            .navigationBarTitleDisplayMode(.inline)
-            
+            Section(header: ApplicatonSectionHeader()) {
+                NavigationLink(destination: CreditsView()) {
+                    HStack {
+                        Image(systemName: "book.circle")
+                        Text("Credits")
+                    }
+                }
+                .isDetailLink(true)
+                
+                NavigationLink(destination: AppInfoView()) {
+                    HStack {
+                        Image(systemName: "info.circle")
+                        Text("App Info")
+                    }
+                }
+                .isDetailLink(true)
+            }
         }
+        .listStyle(GroupedListStyle())
+        .navigationTitle("About")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

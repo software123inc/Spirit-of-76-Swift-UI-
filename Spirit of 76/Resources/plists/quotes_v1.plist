@@ -44,17 +44,10 @@ May your chains sit lightly upon you, and may posterity forget that ye were our 
 			<key>jsonId</key>
 			<real>5</real>
 			<key>quotation</key>
-			<string>Let divines and philosophers, statesmen and patriots, unite their endeavors to renovate the age, impressing the minds of men
-
-with the importance of educating their little boys and girls, of inculcating in the minds of youth the fear
-
-and love of the Deity and universal philanthropy, and, in subordination to these great principles, the love of their country;
-
-of instructing them in the art of self-government, without which they can never act as a wise part of the government of
-
+			<string>Let divines and philosophers, statesmen and patriots, unite their endeavors to renovate the age, impressing the minds of men with the importance of educating their little boys and girls, of inculcating in the minds of youth the fear and love of the Deity and universal philanthropy, and, in subordination to these great principles, the love of their country; of instructing them in the art of self-government, without which they can never act as a wise part of the government of 
 societies, great or small in short, of leading them in the study and practice of the exalted virtues of the Christian system.</string>
 			<key>signerId</key>
-			<real>62</real>
+			<integer>62</integer>
 			<key>sortValue</key>
 			<string>Let divines and phil</string>
 		</dict>
@@ -62,11 +55,9 @@ societies, great or small in short, of leading them in the study and practice of
 			<key>jsonId</key>
 			<real>6</real>
 			<key>quotation</key>
-			<string>It does not take a majority to prevail... but rather an irate, tireless minority, keen on setting brushfires of freedom
-
-in the minds of men.</string>
+			<string>It does not take a majority to prevail... but rather an irate, tireless minority, keen on setting brushfires of freedom in the minds of men.</string>
 			<key>signerId</key>
-			<real>62</real>
+			<integer>62</integer>
 			<key>sortValue</key>
 			<string>It does not take a m</string>
 		</dict>
@@ -74,11 +65,9 @@ in the minds of men.</string>
 			<key>jsonId</key>
 			<real>7</real>
 			<key>quotation</key>
-			<string>Among the natural rights of the colonists are these: First a right to life, secondly to liberty, and thirdly to property;
-
-together with the right to defend them in the best manner they can.</string>
+			<string>Among the natural rights of the colonists are these: First a right to life, secondly to liberty, and thirdly to property; together with the right to defend them in the best manner they can.</string>
 			<key>signerId</key>
-			<real>62</real>
+			<integer>62</integer>
 			<key>sortValue</key>
 			<string>Among the natural ri</string>
 		</dict>
@@ -86,9 +75,7 @@ together with the right to defend them in the best manner they can.</string>
 			<key>jsonId</key>
 			<real>8</real>
 			<key>quotation</key>
-			<string>Our contest is not only whether we ourselves shall be free, but whether there shall be left to mankind an asylum on earth
-
-for civil and religious liberty.</string>
+			<string>Our contest is not only whether we ourselves shall be free, but whether there shall be left to mankind an asylum on earth for civil and religious liberty.</string>
 			<key>signerId</key>
 			<real>62</real>
 			<key>sortValue</key>
@@ -382,7 +369,7 @@ I think, moreover, that talents for the education of youth are the gift of God; 
 			<key>jsonId</key>
 			<real>34</real>
 			<key>quotation</key>
-			<string>It was wonderful to see the change made in the manners of our inhabitants. From being thoughtless or indifferent about religion, it seemed as if all the world were growing religious, so that one could not walk thro' the town in an evening without hearing psalms sung in different families of every street.</string>
+			<string>It was wonderful to see the change made in the manners of our inhabitants. From being thoughtless or indifferent about religion, it seemed as if all the world were growing religious, so that one could not walk thro&apos; the town in an evening without hearing psalms sung in different families of every street.</string>
 			<key>signerId</key>
 			<real>2</real>
 			<key>sortValue</key>
@@ -404,11 +391,11 @@ I think, moreover, that talents for the education of youth are the gift of God; 
 			<key>jsonId</key>
 			<real>36</real>
 			<key>quotation</key>
-			<string>This motto: 'Rebellion to tyrants is obedience to God.'</string>
+			<string>This motto: &apos;Rebellion to tyrants is obedience to God.&apos;</string>
 			<key>signerId</key>
 			<real>2</real>
 			<key>sortValue</key>
-			<string>This motto: 'Rebelli</string>
+			<string>This motto: &apos;Rebelli</string>
 		</dict>
 		<dict>
 			<key>jsonId</key>
@@ -452,7 +439,7 @@ With all these blessings, what more is necessary to make us a happy and prospero
 			<key>jsonId</key>
 			<real>40</real>
 			<key>quotation</key>
-			<string>Believing with you that religion is a matter which lies solely between man and his God, that he owes account to none other for faith or his worship, that the legislative powers of government reach actions only, and not opinions, I contemplate with solemn reverence that act of the whole American people which declared that their legislature should 'make no law respecting an establishment of religion, or prohibiting the free exercise thereof,' thus building a wall of separation between Church and State.</string>
+			<string>Believing with you that religion is a matter which lies solely between man and his God, that he owes account to none other for faith or his worship, that the legislative powers of government reach actions only, and not opinions, I contemplate with solemn reverence that act of the whole American people which declared that their legislature should &apos;make no law respecting an establishment of religion, or prohibiting the free exercise thereof,&apos; thus building a wall of separation between Church and State.</string>
 			<key>signerId</key>
 			<real>82</real>
 			<key>sortValue</key>
@@ -534,7 +521,7 @@ With all these blessings, what more is necessary to make us a happy and prospero
 			<key>jsonId</key>
 			<real>47</real>
 			<key>quotation</key>
-			<string>As my children will have frequent occasion of perusing this instrument [his Last Will and Testament], and may probably be peculiarly impressed with the last words of their father, I think proper here, not only to subscribe to the entire belief of the great leading doctrine of the Christian religion... but also in the heart of a father's affection, to charge and exhort them to remember 'that the fear of the Lord is the beginning of wisdom.'</string>
+			<string>As my children will have frequent occasion of perusing this instrument [his Last Will and Testament], and may probably be peculiarly impressed with the last words of their father, I think proper here, not only to subscribe to the entire belief of the great leading doctrine of the Christian religion... but also in the heart of a father&apos;s affection, to charge and exhort them to remember &apos;that the fear of the Lord is the beginning of wisdom.&apos;</string>
 			<key>signerId</key>
 			<real>105</real>
 			<key>sortValue</key>
@@ -616,7 +603,7 @@ The fate of unborn millions will now depend, under God, on the courage of this a
 			<key>jsonId</key>
 			<real>54</real>
 			<key>quotation</key>
-			<string>No history now extant can furnish an instance of an army's suffering such uncommon hardships as ours has done and bearing them with the same patience and fortitude. To see men without clothes to cover their nakedness, without blankets to lie on, without shoes (for the want of which their marches might be traced by the blood from their feet)... and submitting without a murmur, is a proof of patience and obedience which in my opinion can scarce be paralleled.</string>
+			<string>No history now extant can furnish an instance of an army&apos;s suffering such uncommon hardships as ours has done and bearing them with the same patience and fortitude. To see men without clothes to cover their nakedness, without blankets to lie on, without shoes (for the want of which their marches might be traced by the blood from their feet)... and submitting without a murmur, is a proof of patience and obedience which in my opinion can scarce be paralleled.</string>
 			<key>signerId</key>
 			<real>1</real>
 			<key>sortValue</key>
@@ -690,7 +677,7 @@ I consider it an indispensable duty to close this last solemn act of my Official
 			<key>jsonId</key>
 			<real>60</real>
 			<key>quotation</key>
-			<string>If to please the people, we offer what we ourselves disapprove [a compromised constitution], how can we afterward defend our work? Let us raise a standard to which the wise and the honest can repair; the event is in the Hand of God!'</string>
+			<string>If to please the people, we offer what we ourselves disapprove [a compromised constitution], how can we afterward defend our work? Let us raise a standard to which the wise and the honest can repair; the event is in the Hand of God!&apos;</string>
 			<key>signerId</key>
 			<real>1</real>
 			<key>sortValue</key>
@@ -846,7 +833,7 @@ While men perform their social duties faithfully, they do all that society or th
 		</dict>
 		<dict>
 			<key>context</key>
-			<string>Poor Richard's Almanac, 1758</string>
+			<string>Poor Richard&apos;s Almanac, 1758</string>
 			<key>jsonId</key>
 			<real>73</real>
 			<key>quotation</key>
@@ -1152,11 +1139,11 @@ While men perform their social duties faithfully, they do all that society or th
 		</dict>
 		<dict>
 			<key>context</key>
-			<string>An Essay on Man's Lust for Power, August 29, 1763</string>
+			<string>An Essay on Man&apos;s Lust for Power, August 29, 1763</string>
 			<key>jsonId</key>
 			<real>97</real>
 			<key>quotation</key>
-			<string>Democracy will soon degenerate into an anarchy, such an anarchy that every man will do what is right in his own eyes and no man's life or property or reputation or liberty will be secure, and every one of these will soon mould itself into a system of subordination of all moral virtues and intellectual abilities, all the powers of wealth, beauty, wit and science, to the wanton pleasures, the capricious will, and the execrable cruelty of one or a very few.</string>
+			<string>Democracy will soon degenerate into an anarchy, such an anarchy that every man will do what is right in his own eyes and no man&apos;s life or property or reputation or liberty will be secure, and every one of these will soon mould itself into a system of subordination of all moral virtues and intellectual abilities, all the powers of wealth, beauty, wit and science, to the wanton pleasures, the capricious will, and the execrable cruelty of one or a very few.</string>
 			<key>signerId</key>
 			<real>61</real>
 			<key>sortValue</key>
@@ -1300,7 +1287,7 @@ While men perform their social duties faithfully, they do all that society or th
 			<key>jsonId</key>
 			<real>108</real>
 			<key>quotation</key>
-			<string>I consider the foundation of the Constitution as laid on this ground that 'all powers not delegated to the United States, by the Constitution, nor prohibited by it to the states, are reserved to the states or the people.' To take a single step beyond the boundaries thus specially drawn around the powers of Congress, is to take possession of a boundless field of power, not longer susceptible of any definition.</string>
+			<string>I consider the foundation of the Constitution as laid on this ground that &apos;all powers not delegated to the United States, by the Constitution, nor prohibited by it to the states, are reserved to the states or the people.&apos; To take a single step beyond the boundaries thus specially drawn around the powers of Congress, is to take possession of a boundless field of power, not longer susceptible of any definition.</string>
 			<key>signerId</key>
 			<real>82</real>
 			<key>sortValue</key>
@@ -1502,7 +1489,7 @@ While men perform their social duties faithfully, they do all that society or th
 		</dict>
 		<dict>
 			<key>context</key>
-			<string>Poor Richard's Almanac, 1738</string>
+			<string>Poor Richard&apos;s Almanac, 1738</string>
 			<key>jsonId</key>
 			<real>123</real>
 			<key>quotation</key>
@@ -1658,7 +1645,7 @@ While men perform their social duties faithfully, they do all that society or th
 			<key>jsonId</key>
 			<real>134</real>
 			<key>quotation</key>
-			<string>The moment the idea is admitted into society that property is not as sacred as the laws of God, and that there is to a force of law and public justice to protect it, anarchy and tyranny commence. If 'Thou shalt not covet' and 'Thou shalt not steal' were not commandments of Heaven, they must be made inviolable precepts in every society before it can be civilized or made free.</string>
+			<string>The moment the idea is admitted into society that property is not as sacred as the laws of God, and that there is to a force of law and public justice to protect it, anarchy and tyranny commence. If &apos;Thou shalt not covet&apos; and &apos;Thou shalt not steal&apos; were not commandments of Heaven, they must be made inviolable precepts in every society before it can be civilized or made free.</string>
 			<key>signerId</key>
 			<real>61</real>
 			<key>sortValue</key>
@@ -1682,15 +1669,15 @@ While men perform their social duties faithfully, they do all that society or th
 		</dict>
 		<dict>
 			<key>context</key>
-			<string>Poor Richard's Almanac, 1743</string>
+			<string>Poor Richard&apos;s Almanac, 1743</string>
 			<key>jsonId</key>
 			<real>136</real>
 			<key>quotation</key>
-			<string>O! 'tis easier to keep Holidays than Commandments.</string>
+			<string>O! &apos;tis easier to keep Holidays than Commandments.</string>
 			<key>signerId</key>
 			<real>2</real>
 			<key>sortValue</key>
-			<string>O! 'tis easier to ke</string>
+			<string>O! &apos;tis easier to ke</string>
 			<key>writingID</key>
 			<real>20</real>
 		</dict>
@@ -1780,7 +1767,7 @@ While men perform their social duties faithfully, they do all that society or th
 			<key>jsonId</key>
 			<real>143</real>
 			<key>quotation</key>
-			<string>There is no good government but what is republican. That the only valuable part of the British constitution is so; because the true idea of a republic is 'an empire of laws, and not of men.' That, as a republic is the best of governments, so that particular arrangement of the powers of society, or, in other words, that form of government which is best contrived to secure an impartial and exact execution of the law, is the best of republics.</string>
+			<string>There is no good government but what is republican. That the only valuable part of the British constitution is so; because the true idea of a republic is &apos;an empire of laws, and not of men.&apos; That, as a republic is the best of governments, so that particular arrangement of the powers of society, or, in other words, that form of government which is best contrived to secure an impartial and exact execution of the law, is the best of republics.</string>
 			<key>signerId</key>
 			<real>61</real>
 			<key>sortValue</key>
@@ -2102,7 +2089,7 @@ While men perform their social duties faithfully, they do all that society or th
 		</dict>
 		<dict>
 			<key>context</key>
-			<string>As quoted by Gouverneur Morris, recorded in Farrand's Records of the Federal Convention of 1787, March 25, 1787</string>
+			<string>As quoted by Gouverneur Morris, recorded in Farrand&apos;s Records of the Federal Convention of 1787, March 25, 1787</string>
 			<key>jsonId</key>
 			<real>167</real>
 			<key>quotation</key>
@@ -2132,7 +2119,7 @@ While men perform their social duties faithfully, they do all that society or th
 			<key>jsonId</key>
 			<real>169</real>
 			<key>quotation</key>
-			<string>We have therefore to resolve to conquer or die: Our Country's own Honor, all call upon us for vigorous and manly exertion, and if we now shamefully fail, we shall become infamous to the whole world. Let us therefore rely upon the goodness of the Cause, and the aid of the supreme Being, in whose hands Victory is, to animate and encourage us to great and noble Actions.</string>
+			<string>We have therefore to resolve to conquer or die: Our Country&apos;s own Honor, all call upon us for vigorous and manly exertion, and if we now shamefully fail, we shall become infamous to the whole world. Let us therefore rely upon the goodness of the Cause, and the aid of the supreme Being, in whose hands Victory is, to animate and encourage us to great and noble Actions.</string>
 			<key>signerId</key>
 			<real>1</real>
 			<key>sortValue</key>

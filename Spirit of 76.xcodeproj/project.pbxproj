@@ -41,7 +41,6 @@
 		C785E63E2676F09B0077D397 /* IsFavoriteToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C785E63D2676F09B0077D397 /* IsFavoriteToggleButton.swift */; };
 		C785E6402676F1F50077D397 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C785E63F2676F1F50077D397 /* FavoritesList.swift */; };
 		C798F1B62677B96F00E3DC39 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798F1B52677B96F00E3DC39 /* WelcomeView.swift */; };
-		C7A24E4E26753FA7000D1952 /* ContentViewBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */; };
 		C7A24E522675409A000D1952 /* FoundersTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E512675409A000D1952 /* FoundersTabItem.swift */; };
 		C7A24E542675416D000D1952 /* FoundersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E532675416D000D1952 /* FoundersList.swift */; };
 		C7A24E562675420E000D1952 /* FounderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E552675420E000D1952 /* FounderRow.swift */; };
@@ -112,7 +111,6 @@
 		C785E63D2676F09B0077D397 /* IsFavoriteToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsFavoriteToggleButton.swift; sourceTree = "<group>"; };
 		C785E63F2676F1F50077D397 /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 		C798F1B52677B96F00E3DC39 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBackup.swift; sourceTree = "<group>"; };
 		C7A24E512675409A000D1952 /* FoundersTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersTabItem.swift; sourceTree = "<group>"; };
 		C7A24E532675416D000D1952 /* FoundersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersList.swift; sourceTree = "<group>"; };
 		C7A24E552675420E000D1952 /* FounderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FounderRow.swift; sourceTree = "<group>"; };
@@ -355,7 +353,6 @@
 				C7CB9D402676A461009F929A /* AppInfoView.swift */,
 				C7CB9D4D2676C36B009F929A /* AttributedTextView.swift */,
 				C7E2DF1F26730B6000D098FE /* ContentView.swift */,
-				C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */,
 				C7CB9D3E267698EF009F929A /* CreditsView.swift */,
 				C785E63D2676F09B0077D397 /* IsFavoriteToggleButton.swift */,
 				C7CB9D462676B0C4009F929A /* MailView.swift */,
@@ -504,7 +501,6 @@
 				C7CB9D4E2676C36B009F929A /* AttributedTextView.swift in Sources */,
 				C7A24E562675420E000D1952 /* FounderRow.swift in Sources */,
 				C76A07C1267460A300042C42 /* AuthorshipPlist.swift in Sources */,
-				C7A24E4E26753FA7000D1952 /* ContentViewBackup.swift in Sources */,
 				C7A24E542675416D000D1952 /* FoundersList.swift in Sources */,
 				C7CB9D452676AFAA009F929A /* SKStoreReviewController+Enhancements.swift in Sources */,
 				C770FDB12674273800BAB970 /* UserDefaultKeys.swift in Sources */,
@@ -653,6 +649,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Spirit of 76/Preview Content\"";
 				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_PREVIEWS = YES;
@@ -676,6 +673,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Spirit of 76/Preview Content\"";
 				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_PREVIEWS = YES;
