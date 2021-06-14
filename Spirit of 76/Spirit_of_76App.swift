@@ -56,16 +56,28 @@ struct Spirit_of_76App: App {
 }
 
 extension Spirit_of_76App {
+    func saveChanges() {
+        do {
+            if persistenceController.container.viewContext.hasChanges {
+                try persistenceController.container.viewContext.save()
+            }
+        } catch {
+            DDLogError(error.localizedDescription)
+        }
+    }
+    
     private func doAppIsActiveTasks() {
         DDLogVerbose("App entering active phase.")
     }
     
     private func doEnterBackgroundTasks() {
         DDLogVerbose("App entering background phase.")
+        saveChanges()
     }
     
     private func doAppIsInactiveTasks() {
         DDLogVerbose("App entering inactive phase.")
+        saveChanges()
     }
     
     private func initializeUserDefaults() {

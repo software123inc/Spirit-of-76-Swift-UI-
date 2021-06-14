@@ -46,18 +46,16 @@ struct AboutList: View {
             }
             Section(header: ApplicatonSectionHeader()) {
                 HStack {
-                    Image(systemName: "book.circle")
-                    Text("Credits")
                     NavigationLink(destination: CreditsView()) {
-                        Text("")
+                        Image(systemName: "book.circle")
+                        Text("Credits")
                     }
                     .isDetailLink(true)
                 }
                 HStack {
-                    Image(systemName: "info.circle")
-                    Text("App Info")
                     NavigationLink(destination: AppInfoView()) {
-                        Text("")
+                        Image(systemName: "info.circle")
+                        Text("App Info")
                     }
                     .isDetailLink(true)
                 }

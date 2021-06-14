@@ -13,17 +13,14 @@ struct EventsRow: View {
     @StateObject var item:Event
     
     var body: some View {
-        HStack {
+        NavigationLink(destination: EventsDetail(item: item)) {
             VStack(alignment: .leading, spacing: 5) {
                 Text("\(item.name!)")
                 Text(String(item.year)) // We don't want commas
                     .foregroundColor(Color(K.BrandColors.cayenne))
                     .font(.subheadline)
             }
-            NavigationLink(destination: EventsDetail(item: item)) {
-                    Text("")
-                }
-            .isDetailLink(true)
         }
+        .isDetailLink(true)
     }
 }

@@ -80,5 +80,6 @@ struct FounderDetail: View {
         }
         .navigationTitle("\(subject.firstName ?? "") \(subject.lastName ?? "")")
         .navigationBarTitleDisplayMode(.automatic)
+        .navigationBarItems(trailing: IsFavoriteToggleButton(subject: subject))
     }
 }

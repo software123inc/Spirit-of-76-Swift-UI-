@@ -13,14 +13,9 @@ struct TopicsRow: View {
     @StateObject var item:Topic
     
     var body: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 5) {
-                Text("\(item.title!)")
-            }
-            NavigationLink(destination: TopicsDetail(item: item)) {
-                    Text("")
-                }
-            .isDetailLink(true)
+        NavigationLink(destination: TopicsDetail(item: item)) {
+            Text("\(item.title!)")
         }
+        .isDetailLink(true)
     }
 }

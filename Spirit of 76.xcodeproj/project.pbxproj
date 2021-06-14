@@ -38,6 +38,8 @@
 		C774366226744A040087D85F /* writings_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365826744A020087D85F /* writings_v1.plist */; };
 		C774366326744A040087D85F /* authorships_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365926744A030087D85F /* authorships_v1.plist */; };
 		C774366426744A040087D85F /* topics_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C774365A26744A040087D85F /* topics_v1.plist */; };
+		C785E63E2676F09B0077D397 /* IsFavoriteToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C785E63D2676F09B0077D397 /* IsFavoriteToggleButton.swift */; };
+		C785E6402676F1F50077D397 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C785E63F2676F1F50077D397 /* FavoritesList.swift */; };
 		C7A24E4E26753FA7000D1952 /* ContentViewBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */; };
 		C7A24E522675409A000D1952 /* FoundersTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E512675409A000D1952 /* FoundersTabItem.swift */; };
 		C7A24E542675416D000D1952 /* FoundersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A24E532675416D000D1952 /* FoundersList.swift */; };
@@ -106,6 +108,8 @@
 		C774365826744A020087D85F /* writings_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = writings_v1.plist; sourceTree = "<group>"; };
 		C774365926744A030087D85F /* authorships_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = authorships_v1.plist; sourceTree = "<group>"; };
 		C774365A26744A040087D85F /* topics_v1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics_v1.plist; sourceTree = "<group>"; };
+		C785E63D2676F09B0077D397 /* IsFavoriteToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsFavoriteToggleButton.swift; sourceTree = "<group>"; };
+		C785E63F2676F1F50077D397 /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 		C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBackup.swift; sourceTree = "<group>"; };
 		C7A24E512675409A000D1952 /* FoundersTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersTabItem.swift; sourceTree = "<group>"; };
 		C7A24E532675416D000D1952 /* FoundersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundersList.swift; sourceTree = "<group>"; };
@@ -257,10 +261,10 @@
 		C7A24E5F26754DD1000D1952 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
-				C7A24E6026754DDF000D1952 /* TopicsTabItem.swift */,
+				C7CB9D3226756366009F929A /* TopicsDetail.swift */,
 				C7CB9D2E2675634A009F929A /* TopicsList.swift */,
 				C7CB9D3026756356009F929A /* TopicsRow.swift */,
-				C7CB9D3226756366009F929A /* TopicsDetail.swift */,
+				C7A24E6026754DDF000D1952 /* TopicsTabItem.swift */,
 			);
 			path = Topics;
 			sourceTree = "<group>";
@@ -269,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				C7A24E6326754E52000D1952 /* FavoritesTabItem.swift */,
+				C785E63F2676F1F50077D397 /* FavoritesList.swift */,
 			);
 			path = Favorites;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 				C7CB9D3E267698EF009F929A /* CreditsView.swift */,
 				C7CB9D462676B0C4009F929A /* MailView.swift */,
 				C7A24E4F2675407A000D1952 /* Tabs */,
+				C785E63D2676F09B0077D397 /* IsFavoriteToggleButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -488,7 +494,9 @@
 				C7CB9D4C2676C070009F929A /* DeclarationOfIndependence.swift in Sources */,
 				C770FDB42674332B00BAB970 /* CountryPlist.swift in Sources */,
 				C7A24E6A26754F18000D1952 /* EventsList.swift in Sources */,
+				C785E6402676F1F50077D397 /* FavoritesList.swift in Sources */,
 				C7CB9D3B2676982E009F929A /* FeedbackSection.swift in Sources */,
+				C785E63E2676F09B0077D397 /* IsFavoriteToggleButton.swift in Sources */,
 				C7CB9D4E2676C36B009F929A /* AttributedTextView.swift in Sources */,
 				C7A24E562675420E000D1952 /* FounderRow.swift in Sources */,
 				C76A07C1267460A300042C42 /* AuthorshipPlist.swift in Sources */,

@@ -30,7 +30,7 @@ struct ContentView: View {
                     .tabItem {
                         TopicsTabItem()
                     }
-                Text("Favorites")
+                FavoritesList()
                     .tabItem {
                         FavoritesTabItem()
                     }

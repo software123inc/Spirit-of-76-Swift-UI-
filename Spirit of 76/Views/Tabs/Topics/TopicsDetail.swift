@@ -30,5 +30,6 @@ struct TopicsDetail: View {
         }
         .navigationTitle(item.title ?? "")
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarItems(trailing: IsFavoriteToggleButton(subject: item))
     }
 }
