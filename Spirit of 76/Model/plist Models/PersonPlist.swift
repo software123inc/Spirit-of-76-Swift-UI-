@@ -142,7 +142,7 @@ extension PersonImporter {
             return
         }
         
-        let fr:NSFetchRequest<State> = State.fetchRequest()
+        let fr:NSFetchRequest<States> = States.fetchRequest()
         fr.predicate = NSPredicate(format: "jsonId == %d", stateId)
         
         do {
@@ -157,16 +157,18 @@ extension PersonImporter {
     
     func relate(person:Person, toResidentStateId stateId:Int16?, inContext context:NSManagedObjectContext) {
         guard let stateId = stateId  else {
+            DDLogDebug("\(String(describing: person.firstName)) \(String(describing: person.lastName)) has no resident state.")
             return
         }
         
-        let fr:NSFetchRequest<State> = State.fetchRequest()
+        let fr:NSFetchRequest<States> = States.fetchRequest()
         fr.predicate = NSPredicate(format: "jsonId == %d", stateId)
         
         do {
             // Get the foreign managed object
             let fo = try context.fetch(fr).first
             fo?.addToResidentPersons(person)
+            DDLogVerbose("\(String(describing: person.firstName)) \(String(describing: person.lastName)) has resident state \(String(describing: fo?.name)) image: \(String(describing: fo?.imageName)).")
         }
         catch {
             DDLogError(error)

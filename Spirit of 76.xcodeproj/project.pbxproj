@@ -55,6 +55,18 @@
 		C7CB9D3126756356009F929A /* TopicsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D3026756356009F929A /* TopicsRow.swift */; };
 		C7CB9D3326756366009F929A /* TopicsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D3226756366009F929A /* TopicsDetail.swift */; };
 		C7CB9D35267566F3009F929A /* AboutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D34267566F3009F929A /* AboutList.swift */; };
+		C7CB9D39267697C0009F929A /* ApplicationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D38267697C0009F929A /* ApplicationSection.swift */; };
+		C7CB9D3B2676982E009F929A /* FeedbackSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D3A2676982E009F929A /* FeedbackSection.swift */; };
+		C7CB9D3F267698EF009F929A /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D3E267698EF009F929A /* CreditsView.swift */; };
+		C7CB9D412676A461009F929A /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D402676A461009F929A /* AppInfoView.swift */; };
+		C7CB9D452676AFAA009F929A /* SKStoreReviewController+Enhancements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D442676AFAA009F929A /* SKStoreReviewController+Enhancements.swift */; };
+		C7CB9D472676B0C4009F929A /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D462676B0C4009F929A /* MailView.swift */; };
+		C7CB9D492676BAB2009F929A /* docs_v1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7CB9D482676BAB2009F929A /* docs_v1.plist */; };
+		C7CB9D4C2676C070009F929A /* DeclarationOfIndependence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D4B2676C070009F929A /* DeclarationOfIndependence.swift */; };
+		C7CB9D4E2676C36B009F929A /* AttributedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D4D2676C36B009F929A /* AttributedTextView.swift */; };
+		C7CB9D502676C939009F929A /* DocumentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D4F2676C939009F929A /* DocumentsList.swift */; };
+		C7CB9D522676CE0B009F929A /* ArticlesOfConfederation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D512676CE0B009F929A /* ArticlesOfConfederation.swift */; };
+		C7CB9D542676D3DC009F929A /* USConstitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CB9D532676D3DC009F929A /* USConstitution.swift */; };
 		C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */; };
 		C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E2DF1F26730B6000D098FE /* ContentView.swift */; };
 		C7E2DF2226730B6300D098FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E2DF2126730B6300D098FE /* Assets.xcassets */; };
@@ -111,6 +123,19 @@
 		C7CB9D3026756356009F929A /* TopicsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsRow.swift; sourceTree = "<group>"; };
 		C7CB9D3226756366009F929A /* TopicsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsDetail.swift; sourceTree = "<group>"; };
 		C7CB9D34267566F3009F929A /* AboutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutList.swift; sourceTree = "<group>"; };
+		C7CB9D38267697C0009F929A /* ApplicationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationSection.swift; sourceTree = "<group>"; };
+		C7CB9D3A2676982E009F929A /* FeedbackSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSection.swift; sourceTree = "<group>"; };
+		C7CB9D3E267698EF009F929A /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		C7CB9D402676A461009F929A /* AppInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		C7CB9D422676AB05009F929A /* Spirit_of_76_v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spirit_of_76_v2.xcdatamodel; sourceTree = "<group>"; };
+		C7CB9D442676AFAA009F929A /* SKStoreReviewController+Enhancements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKStoreReviewController+Enhancements.swift"; sourceTree = "<group>"; };
+		C7CB9D462676B0C4009F929A /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		C7CB9D482676BAB2009F929A /* docs_v1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = docs_v1.plist; sourceTree = "<group>"; };
+		C7CB9D4B2676C070009F929A /* DeclarationOfIndependence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclarationOfIndependence.swift; sourceTree = "<group>"; };
+		C7CB9D4D2676C36B009F929A /* AttributedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedTextView.swift; sourceTree = "<group>"; };
+		C7CB9D4F2676C939009F929A /* DocumentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsList.swift; sourceTree = "<group>"; };
+		C7CB9D512676CE0B009F929A /* ArticlesOfConfederation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesOfConfederation.swift; sourceTree = "<group>"; };
+		C7CB9D532676D3DC009F929A /* USConstitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USConstitution.swift; sourceTree = "<group>"; };
 		C7E2DF1A26730B6000D098FE /* Spirit of 76.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spirit of 76.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirit_of_76App.swift; sourceTree = "<group>"; };
 		C7E2DF1F26730B6000D098FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +186,7 @@
 				C7743654267449FF0087D85F /* states_v1.plist */,
 				C774365A26744A040087D85F /* topics_v1.plist */,
 				C774365826744A020087D85F /* writings_v1.plist */,
+				C7CB9D482676BAB2009F929A /* docs_v1.plist */,
 			);
 			path = plists;
 			sourceTree = "<group>";
@@ -212,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				C7A24E5A26754BF6000D1952 /* DocumentsTabItem.swift */,
+				C7CB9D4F2676C939009F929A /* DocumentsList.swift */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -249,10 +276,30 @@
 		C7A24E6526754E7F000D1952 /* About */ = {
 			isa = PBXGroup;
 			children = (
-				C7A24E6626754E8C000D1952 /* AboutTabItem.swift */,
 				C7CB9D34267566F3009F929A /* AboutList.swift */,
+				C7A24E6626754E8C000D1952 /* AboutTabItem.swift */,
+				C7CB9D38267697C0009F929A /* ApplicationSection.swift */,
+				C7CB9D3A2676982E009F929A /* FeedbackSection.swift */,
 			);
 			path = About;
+			sourceTree = "<group>";
+		};
+		C7CB9D432676AF99009F929A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7CB9D442676AFAA009F929A /* SKStoreReviewController+Enhancements.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C7CB9D4A2676C04F009F929A /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				C7CB9D512676CE0B009F929A /* ArticlesOfConfederation.swift */,
+				C7CB9D4B2676C070009F929A /* DeclarationOfIndependence.swift */,
+				C7CB9D532676D3DC009F929A /* USConstitution.swift */,
+			);
+			path = Docs;
 			sourceTree = "<group>";
 		};
 		C7E2DF1126730B6000D098FE = {
@@ -277,6 +324,7 @@
 				C7E2DF2B26730B6300D098FE /* Info.plist */,
 				C7E2DF2626730B6300D098FE /* Persistence.swift */,
 				C7E2DF1D26730B6000D098FE /* Spirit_of_76App.swift */,
+				C7CB9D432676AF99009F929A /* Extensions */,
 				C7E2DF3226730C7700D098FE /* Model */,
 				C770FD962673DCAD00BAB970 /* Objects */,
 				C7E2DF2326730B6300D098FE /* Preview Content */,
@@ -297,9 +345,13 @@
 		C7E2DF3126730C7100D098FE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C7A24E4F2675407A000D1952 /* Tabs */,
+				C7CB9D4D2676C36B009F929A /* AttributedTextView.swift */,
+				C7CB9D402676A461009F929A /* AppInfoView.swift */,
 				C7E2DF1F26730B6000D098FE /* ContentView.swift */,
 				C7A24E4D26753FA7000D1952 /* ContentViewBackup.swift */,
+				C7CB9D3E267698EF009F929A /* CreditsView.swift */,
+				C7CB9D462676B0C4009F929A /* MailView.swift */,
+				C7A24E4F2675407A000D1952 /* Tabs */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +368,7 @@
 		C7E2DF3326730C8600D098FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C7CB9D4A2676C04F009F929A /* Docs */,
 				C770FDA92674187800BAB970 /* plists */,
 				C7E2DF2126730B6300D098FE /* Assets.xcassets */,
 			);
@@ -397,6 +450,7 @@
 				C774366126744A040087D85F /* cities_v1.plist in Resources */,
 				C774365E26744A040087D85F /* states_v1.plist in Resources */,
 				C774366226744A040087D85F /* writings_v1.plist in Resources */,
+				C7CB9D492676BAB2009F929A /* docs_v1.plist in Resources */,
 				C774366426744A040087D85F /* topics_v1.plist in Resources */,
 				C7E2DF2226730B6300D098FE /* Assets.xcassets in Resources */,
 			);
@@ -410,8 +464,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C76A07B92674555E00042C42 /* PersonPlist.swift in Sources */,
+				C7CB9D3F267698EF009F929A /* CreditsView.swift in Sources */,
 				C770FDB826743D8F00BAB970 /* EventPlist.swift in Sources */,
 				C76A07B52674532800042C42 /* WritingsPlist.swift in Sources */,
+				C7CB9D522676CE0B009F929A /* ArticlesOfConfederation.swift in Sources */,
 				C770FDA82673F89F00BAB970 /* TypeAliases.swift in Sources */,
 				C76A07BF26745FF600042C42 /* ProfessionPlist.swift in Sources */,
 				C7CB9D2F2675634A009F929A /* TopicsList.swift in Sources */,
@@ -420,29 +476,38 @@
 				C7A24E6126754DDF000D1952 /* TopicsTabItem.swift in Sources */,
 				C7E2DF2A26730B6300D098FE /* Spirit_of_76.xcdatamodeld in Sources */,
 				C7CB9D3126756356009F929A /* TopicsRow.swift in Sources */,
+				C7CB9D502676C939009F929A /* DocumentsList.swift in Sources */,
 				C7A24E6426754E52000D1952 /* FavoritesTabItem.swift in Sources */,
 				C76A07B126744C4200042C42 /* StatePlist.swift in Sources */,
+				C7CB9D542676D3DC009F929A /* USConstitution.swift in Sources */,
 				C7E2DF2726730B6300D098FE /* Persistence.swift in Sources */,
 				C76A07B72674545800042C42 /* CityPlist.swift in Sources */,
 				C770FD982673DD4C00BAB970 /* ThemeManager.swift in Sources */,
 				C7A24E5E26754D95000D1952 /* EventsTabItem.swift in Sources */,
 				C7A24E6726754E8C000D1952 /* AboutTabItem.swift in Sources */,
+				C7CB9D4C2676C070009F929A /* DeclarationOfIndependence.swift in Sources */,
 				C770FDB42674332B00BAB970 /* CountryPlist.swift in Sources */,
 				C7A24E6A26754F18000D1952 /* EventsList.swift in Sources */,
+				C7CB9D3B2676982E009F929A /* FeedbackSection.swift in Sources */,
+				C7CB9D4E2676C36B009F929A /* AttributedTextView.swift in Sources */,
 				C7A24E562675420E000D1952 /* FounderRow.swift in Sources */,
 				C76A07C1267460A300042C42 /* AuthorshipPlist.swift in Sources */,
 				C7A24E4E26753FA7000D1952 /* ContentViewBackup.swift in Sources */,
 				C7A24E542675416D000D1952 /* FoundersList.swift in Sources */,
+				C7CB9D452676AFAA009F929A /* SKStoreReviewController+Enhancements.swift in Sources */,
 				C770FDB12674273800BAB970 /* UserDefaultKeys.swift in Sources */,
 				C7CB9D3326756366009F929A /* TopicsDetail.swift in Sources */,
+				C7CB9D39267697C0009F929A /* ApplicationSection.swift in Sources */,
 				C76A07B326744F4800042C42 /* TopicPlist.swift in Sources */,
 				C770FDAD267424E600BAB970 /* PListImporter.swift in Sources */,
 				C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */,
 				C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */,
+				C7CB9D472676B0C4009F929A /* MailView.swift in Sources */,
 				C76A07C3267461AC00042C42 /* QuotePlist.swift in Sources */,
 				C7A24E522675409A000D1952 /* FoundersTabItem.swift in Sources */,
 				C770FDAF267425E300BAB970 /* PListSeeder.swift in Sources */,
 				C7A24E6C267552F6000D1952 /* EventsDetail.swift in Sources */,
+				C7CB9D412676A461009F929A /* AppInfoView.swift in Sources */,
 				C76A07BB26745C3C00042C42 /* EducationPlist.swift in Sources */,
 				C7A24E5B26754BF6000D1952 /* DocumentsTabItem.swift in Sources */,
 				C7A24E6E26755490000D1952 /* EventsRow.swift in Sources */,
@@ -662,9 +727,10 @@
 		C7E2DF2826730B6300D098FE /* Spirit_of_76.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				C7CB9D422676AB05009F929A /* Spirit_of_76_v2.xcdatamodel */,
 				C7E2DF2926730B6300D098FE /* Spirit_of_76.xcdatamodel */,
 			);
-			currentVersion = C7E2DF2926730B6300D098FE /* Spirit_of_76.xcdatamodel */;
+			currentVersion = C7CB9D422676AB05009F929A /* Spirit_of_76_v2.xcdatamodel */;
 			path = Spirit_of_76.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -18,7 +18,7 @@ struct ContentView: View {
                     .tabItem {
                         FoundersTabItem()
                     }
-                Text("Documents")
+                DocumentsList()
                     .tabItem {
                         DocumentsTabItem()
                     }

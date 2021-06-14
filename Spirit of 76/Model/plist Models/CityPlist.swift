@@ -98,7 +98,7 @@ extension CityImporter {
             return
         }
         
-        let fr:NSFetchRequest<State> = State.fetchRequest()
+        let fr:NSFetchRequest<States> = States.fetchRequest()
         fr.predicate = NSPredicate(format: "jsonId == %d", stateId)
         
         do {

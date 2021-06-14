@@ -5,26 +5,29 @@
 //  Created by Tim Newton on 6/11/21.
 //
 
-import Foundation
+import SwiftUI
 import CoreData
 import CocoaLumberjackSwift
 
 struct PListSeeder {
+    
     static let shared = PListSeeder()
     private let plistRootElement = "records"
     private let dateFormatter = DateFormatter()
     
     func getSeedFilesAndImport() {
+        let vc = PersistenceController.shared.container.viewContext
+        CountryImporter.shared.doImport_v1(inContext: vc)
+        StateImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state
+        PersonImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state, country
+        
         PersistenceController.shared.container.performBackgroundTask {
-            CountryImporter.shared.doImport_v1(inContext: $0)
             EventImporter.shared.doImport_v1(inContext: $0)
-            StateImporter.shared.doImport_v1(inContext: $0)
             TopicImporter.shared.doImport_v1(inContext: $0)
             WritingImporter.shared.doImport_v1(inContext: $0)
-            
+
             CityImporter.shared.doImport_v1(inContext: $0) // ForeignKey > state
-            PersonImporter.shared.doImport_v1(inContext: $0) // ForeignKey > state, country
-            
+
             EducationImporter.shared.doImport_v1(inContext: $0)
             FactImporter.shared.doImport_v1(inContext: $0)
             ProfessionImporter.shared.doImport_v1(inContext: $0)

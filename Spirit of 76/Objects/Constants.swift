@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 struct K {
     static let appName = "Spirit of '76"
@@ -19,7 +20,7 @@ struct K {
         static let showTablesInitially = "showTablesInitially"
     }
     
-    struct Image {
+    struct UIImages {
         static let declarationBlurredBkgnd = UIImage(named: "declaration_pale_blurred")
         static let fife_and_drum = UIImage(named: "Fife_and_Drum")
         static let libertyBell = UIImage(named: "LibertyBell")
@@ -28,7 +29,11 @@ struct K {
     }
     
     struct ImageView {
-        static let libertyBell = UIImageView.init(image: K.Image.libertyBell)
+        static let libertyBell = UIImageView.init(image: K.UIImages.libertyBell)
+    }
+    
+    struct Images {
+        static let fife_and_drum = Image(uiImage: K.UIImages.fife_and_drum!)
     }
     
     struct BrandColors {
@@ -38,14 +43,20 @@ struct K {
     struct ManObjKey {
         static let asOfDate = "asOfDate"
         static let entity = "entity"
+        static let name = "name"
         static let sortValue = "sortValue"
+        static let quotation = "quotation"
+        static let title = "title"
         static let year = "year"
     }
     
     struct SortBy {
         static let asOfDateASC = NSSortDescriptor(key: K.ManObjKey.asOfDate, ascending: true)
         static let entityASC = NSSortDescriptor(key: K.ManObjKey.entity, ascending: true)
+        static let nameASC = NSSortDescriptor(key: K.ManObjKey.name, ascending: true)
+        static let quotationASC = NSSortDescriptor(key: K.ManObjKey.quotation, ascending: true)
         static let sortValueASC = NSSortDescriptor(key: K.ManObjKey.sortValue, ascending: true)
+        static let titleASC = NSSortDescriptor(key: K.ManObjKey.title, ascending: true)
         static let yearASC = NSSortDescriptor(key: K.ManObjKey.year, ascending: true)
     }
     

@@ -14,43 +14,27 @@ struct FounderRow: View {
     @StateObject var subject:Person
     
     var body: some View {
-        HStack{
+        HStack {
             if let imageName = subject.imageName {
                 Image("Avatars/\(imageName)")
-                    .resizable()
                     .fixedSize(horizontal: true
                                , vertical: true)
             }
             else {
                 Image(systemName: "photo.on.rectangle.angled")
             }
-            
-            subject.firstName.map(Text.init)
-            subject.lastName.map(Text.init)
             NavigationLink(destination: FounderDetail(subject: subject)) {
-                    Text("")
+                VStack(alignment: .leading, spacing: 5) {
+                    HStack {
+                        subject.firstName.map(Text.init)
+                        subject.lastName.map(Text.init)
+                    }
+                    (subject.summaryText.map(Text.init))
+                        .font(.footnote)
                 }
+            }
             .isDetailLink(true)
         }
     }
 }
-//
-//struct FounderRow_Previews: PreviewProvider {
-//    static func previewPerson() -> Person {
-//        let previewContext = PersistenceController.preview.container.viewContext
-//
-//        let pngData = UIImage(systemName: "photo")?.pngData()!
-//
-//        let thing = PersistenceController.addThing(Person.self, in: previewContext, name: "Person Row", avatarPNG: pngData)
-//
-//        PersistenceController.saveContext(context: previewContext)
-//
-//        return thing
-//    }
-//
-//    static var previews: some View {
-//        FounderRow(subject: previewPerson())
-//            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-//    }
-//}
 

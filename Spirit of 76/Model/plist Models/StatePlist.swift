@@ -39,7 +39,7 @@ struct StateImporter {
                         return
                     }
                     
-                    let fr:NSFetchRequest<State> = State.fetchRequest()
+                    let fr:NSFetchRequest<States> = States.fetchRequest()
                     fr.predicate = NSPredicate(format: "jsonId == %d", item.jsonId)
                     
                     do {
@@ -52,7 +52,7 @@ struct StateImporter {
                         
                         // Create Managed Object in child context to prState auto-save when app goes to background.
                         // FIXME: Switch to viewContext
-                        let mo = State.init(context: performingContext)
+                        let mo = States.init(context: performingContext)
                         mo.jsonId = item.jsonId
                         mo.imageName = item.imageName
                         mo.sortValue = item.sortValue

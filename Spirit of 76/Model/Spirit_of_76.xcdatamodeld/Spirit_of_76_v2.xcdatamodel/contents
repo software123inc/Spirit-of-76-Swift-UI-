@@ -4,7 +4,7 @@
         <attribute name="name" attributeType="String"/>
         <attribute name="notes" optional="YES" attributeType="String"/>
         <attribute name="synopsis" optional="YES" attributeType="String"/>
-        <relationship name="state" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="cities" inverseEntity="State"/>
+        <relationship name="state" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="States" inverseName="cities" inverseEntity="States"/>
     </entity>
     <entity name="Country" representedClassName="Country" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
         <attribute name="name" attributeType="String"/>
@@ -53,12 +53,12 @@
         <attribute name="summaryText" optional="YES" attributeType="String"/>
         <attribute name="title" optional="YES" attributeType="String"/>
         <relationship name="birthCountry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="birthPersons" inverseEntity="Country"/>
-        <relationship name="birthState" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="birthPersons" inverseEntity="State"/>
+        <relationship name="birthState" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="States" inverseName="birthPersons" inverseEntity="States"/>
         <relationship name="educations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Education" inverseName="person" inverseEntity="Education"/>
         <relationship name="facts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Fact" inverseName="person" inverseEntity="Fact"/>
         <relationship name="professions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Profession" inverseName="person" inverseEntity="Profession"/>
         <relationship name="quotes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quote" inverseName="person" inverseEntity="Quote"/>
-        <relationship name="residenceState" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="residentPersons" inverseEntity="State"/>
+        <relationship name="residenceState" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="States" inverseName="residentPersons" inverseEntity="States"/>
         <relationship name="writings" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Writing" inverseName="persons" inverseEntity="Writing"/>
     </entity>
     <entity name="Profession" representedClassName="Profession" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
@@ -71,7 +71,7 @@
         <attribute name="quotation" optional="YES" attributeType="String"/>
         <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="quotes" inverseEntity="Person"/>
     </entity>
-    <entity name="State" representedClassName="State" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
+    <entity name="States" representedClassName="States" parentEntity="JsonImport" syncable="YES" codeGenerationType="class">
         <attribute name="abbreviation" attributeType="String" minValueString="2"/>
         <attribute name="name" attributeType="String"/>
         <relationship name="birthPersons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="birthState" inverseEntity="Person"/>
@@ -100,7 +100,7 @@
         <element name="Person" positionX="18" positionY="117" width="128" height="373"/>
         <element name="Profession" positionX="9" positionY="108" width="128" height="103"/>
         <element name="Quote" positionX="-18" positionY="99" width="128" height="73"/>
-        <element name="State" positionX="0" positionY="108" width="128" height="104"/>
+        <element name="States" positionX="0" positionY="108" width="128" height="104"/>
         <element name="Topic" positionX="18" positionY="117" width="128" height="88"/>
         <element name="Writing" positionX="36" positionY="126" width="128" height="118"/>
     </elements>

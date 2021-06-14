@@ -6,65 +6,62 @@
 //
 
 import SwiftUI
+import StoreKit
+import MessageUI
 
 struct AboutList: View {
-    let applicationItems = [
-        AboutItem(imageName: "book.circle", name: "Credits"),
-        AboutItem(imageName: "info.circle", name: "App Info"),
-    ]
+    @State var result: Result<MFMailComposeResult, Error>? = nil
+    @State var isShowingMailView = false
     
-    let feedbackItems = [
-        AboutItem(imageName: "star.circle", name: "Rate Me"),
-        AboutItem(imageName: "envelope.circle", name: "Send Email"),
-    ]
+    let recipients = ["support@software123.com"]
+    let subject = "\(K.appName) Support"
+    let messageBody = "<p>======<br/>App: \(K.appName).<br />Version: \(K.appVersion)<br />Please Do Not Remove<br/>======</p>"
+    let messageBodyIsHtml = true
     
     var body: some View {
         List {
-            Section(header: FeedbackHeader()) {
-                ForEach(feedbackItems) { item in
-                    AboutRow(item: item)
+            Section(header: FeedbackSectionHeader()) {
+                HStack {
+                    Image(systemName: "star.circle")
+                    Text("Rate Me")
+                    Button("") {
+                        SKStoreReviewController.requestReviewInCurrentScene()
+                    }
+                }
+                HStack {
+                    Image(systemName: "envelope.circle")
+                    Text("Send Email")
+                    Button("") {
+                        self.isShowingMailView.toggle()
+                    }
+                    .disabled(!MFMailComposeViewController.canSendMail())
+                    .sheet(isPresented: $isShowingMailView) {
+                        MailView(result: self.$result,
+                                 recipients: self.recipients,
+                                 subject: self.subject,
+                                 messageBody: self.messageBody,
+                                 messageBodyIsHtml: self.messageBodyIsHtml)
+                    }
                 }
             }
-            Section(header: AboutHeader()) {
-                ForEach(applicationItems) { item in
-                    AboutRow(item: item)
+            Section(header: ApplicatonSectionHeader()) {
+                HStack {
+                    Image(systemName: "book.circle")
+                    Text("Credits")
+                    NavigationLink(destination: CreditsView()) {
+                        Text("")
+                    }
+                    .isDetailLink(true)
+                }
+                HStack {
+                    Image(systemName: "info.circle")
+                    Text("App Info")
+                    NavigationLink(destination: AppInfoView()) {
+                        Text("")
+                    }
+                    .isDetailLink(true)
                 }
             }
         }.listStyle(GroupedListStyle())
-    }
-}
-
-struct AboutItem: Identifiable {
-    var id = UUID()
-    var imageName:String
-    var name: String
-}
-
-struct AboutRow: View {
-    var item: AboutItem
-    
-    var body: some View {
-        HStack {
-            Image(systemName: item.imageName)
-            Text(item.name)
-        }
-    }
-}
-
-struct AboutHeader: View {
-    var body: some View {
-        HStack {
-            Image(systemName: "bell")
-            Text("Spirit of 76")
-        }
-    }
-}
-
-struct FeedbackHeader: View {
-    var body: some View {
-        HStack {
-            Image(systemName: "bell")
-            Text("Feedback")
-        }
     }
 }
