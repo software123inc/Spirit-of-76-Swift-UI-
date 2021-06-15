@@ -31,6 +31,10 @@ struct PListSeeder {
         ProfessionImporter.shared.doImport_v1(inContext: vc)
         AuthorshipImporter.shared.doImport_v1(inContext: vc)
         QuoteImporter.shared.doImport_v1(inContext: vc)
+        
+        if StatesImporter.shared.ConfirmStatesAreImported(inContext: vc) {
+            PersonImporter.shared.sync_states(inContext: vc)
+        }
     }
     
     func transformPListRecords<C:Codable>(_ records:plistRecord, ofType codeable:C.Type, transformationHandler:plistDataSetToManagedObjectTransformerClosure) {

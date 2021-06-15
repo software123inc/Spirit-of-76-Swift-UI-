@@ -30,7 +30,7 @@ struct CityImporter {
     
     func doImport_v1(inContext performingContext: NSManagedObjectContext) {
         let udKey = UserDefaultKeys.plist_cities_v1
-        StatesImporter.shared.ConfirmStatesAreImported(inContext: performingContext)
+        let _ = StatesImporter.shared.ConfirmStatesAreImported(inContext: performingContext)
         
         if !UserDefaults.standard.contains(key:udKey) || !UserDefaults.standard.bool(forKey: udKey) {
             DDLogVerbose("Importing \(itemType)s v1.")

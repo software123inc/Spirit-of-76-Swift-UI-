@@ -84,7 +84,7 @@ struct StatesImporter {
 }
 
 extension StatesImporter {
-    func ConfirmStatesAreImported(inContext performingContext: NSManagedObjectContext) {
+    func ConfirmStatesAreImported(inContext performingContext: NSManagedObjectContext) -> Bool {
         let fr:NSFetchRequest<States> = States.fetchRequest()
         
         do {
@@ -92,15 +92,18 @@ extension StatesImporter {
             
             guard results.isEmpty else {
                 DDLogInfo("It appears that states have been imported. \(results.count) records found.")
-                return
+                return false
             }
             DDLogInfo("We must re-import states.")
             UserDefaults.standard.setValue(false, forKey: udKey)
             StatesImporter.shared.doImport_v1(inContext: performingContext)
+            
         }
         catch {
             DDLogError(error.localizedDescription)
         }
+        
+        return true
     }
 }
 

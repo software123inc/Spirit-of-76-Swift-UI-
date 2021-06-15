@@ -85,7 +85,7 @@ fileprivate struct AboutListing: View {
                     .actionSheet(isPresented: $showingActionSheet) {
                         ActionSheet(title: Text("Resync Data"), message: Text("Select an action."), buttons: [
                             .default(Text("Resync founders with states.")) {
-                                StatesImporter.shared.ConfirmStatesAreImported(inContext: viewContext)
+                                let _ = StatesImporter.shared.ConfirmStatesAreImported(inContext: viewContext)
                                 PersonImporter.shared.sync_states(inContext: viewContext)
                             },
                             .cancel()
