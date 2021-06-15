@@ -18,13 +18,13 @@ struct PListSeeder {
     func getSeedFilesAndImport() {
         let vc = PersistenceController.shared.container.viewContext
         CountryImporter.shared.doImport_v1(inContext: vc)
-        StateImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state
-        PersonImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state, country
+        StatesImporter.shared.doImport_v1(inContext: vc)
         EventImporter.shared.doImport_v1(inContext: vc)
         TopicImporter.shared.doImport_v1(inContext: vc)
         WritingImporter.shared.doImport_v1(inContext: vc)
 
         CityImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state
+        PersonImporter.shared.doImport_v1(inContext: vc) // ForeignKey > state, country
 
         EducationImporter.shared.doImport_v1(inContext: vc)
         FactImporter.shared.doImport_v1(inContext: vc)

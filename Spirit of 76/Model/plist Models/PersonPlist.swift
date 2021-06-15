@@ -43,6 +43,7 @@ struct PersonImporter {
     
     func doImport_v1(inContext performingContext: NSManagedObjectContext) {
         let udKey = UserDefaultKeys.plist_persons_v1
+        StatesImporter.shared.ConfirmStatesAreImported(inContext: performingContext)
         
         if !UserDefaults.standard.contains(key:udKey) || !UserDefaults.standard.bool(forKey: udKey) {
             DDLogVerbose("Importing \(itemType)s v1.")
@@ -63,7 +64,7 @@ struct PersonImporter {
                         let result = try performingContext.fetch(fr)
                         
                         guard result.isEmpty else {
-                            print("\(itemType) \(item.lastName) already exists")
+                            DDLogWarn("\(itemType) \(item.lastName) already exists")
                             return
                         }
                         
@@ -116,9 +117,50 @@ struct PersonImporter {
             DDLogVerbose("Bypass Importing \(itemType)s v1.")
         }
     }
+    
+    func sync_states(inContext performingContext: NSManagedObjectContext) {
+        DDLogVerbose("Resyncing Person:States from \(itemType)s_v1.")
+        let resourceName = "\(itemType)s_v1".lowercased()
+        if let plistItems = PListImporter.shared.itemList(forResource: resourceName, root: "records") {
+            PListSeeder.shared.transformPListRecords(plistItems, ofType:PersonPlist.self) { item in
+                guard let item = item as? PersonPlist else {
+                    DDLogWarn("item does not conform to \(itemType)Plist")
+                    return
+                }
+                
+                let fr:NSFetchRequest<Person> = Person.fetchRequest()
+                fr.predicate = NSPredicate(format: "jsonId == %d", item.jsonId)
+                
+                do {
+                    let results = try performingContext.fetch(fr)
+                    
+                    guard !results.isEmpty, let person = results.first else {
+                        DDLogWarn("\(itemType) \(item.lastName) not found.")
+                        return
+                    }
+                    
+                    // Relate records
+                    relate(person: person, toBirthCountryId: item.birthCountryId, inContext: performingContext)
+                    relate(person: person, toBirthStateId: item.birthStateId, inContext: performingContext)
+                    relate(person: person, toResidentStateId: item.residenceStateId, inContext: performingContext)
+                    
+                    PersistenceController.saveContext(context: performingContext)
+                    DDLogVerbose("Updated \(String(describing: person.firstName)) \(String(describing: person.lastName))'.")
+                }
+                catch {
+                    DDLogError(error)
+                }
+                
+                PersistenceController.saveContext(context: performingContext)
+            }
+        }
+        else {
+            DDLogWarn("Could not load \(resourceName)")
+        }
+    }
 }
 
-extension PersonImporter {
+extension PersonImporter {    
     func relate(person:Person, toBirthCountryId countryId:Int16?, inContext context:NSManagedObjectContext) {
         guard let countryId = countryId  else {
             return
@@ -157,7 +199,7 @@ extension PersonImporter {
     
     func relate(person:Person, toResidentStateId stateId:Int16?, inContext context:NSManagedObjectContext) {
         guard let stateId = stateId  else {
-            DDLogDebug("\(String(describing: person.firstName)) \(String(describing: person.lastName)) has no resident state.")
+            DDLogWarn("\(person.firstName ?? "") \(person.lastName ?? "") has no resident state.")
             return
         }
         
@@ -166,9 +208,15 @@ extension PersonImporter {
         
         do {
             // Get the foreign managed object
-            let fo = try context.fetch(fr).first
+            let results = try context.fetch(fr)
+            guard results.count > 0 else {
+                DDLogWarn("Resident state with ID \(stateId) not found.")
+                return
+            }
+            
+            let fo = results.first
             fo?.addToResidentPersons(person)
-            DDLogVerbose("\(String(describing: person.firstName)) \(String(describing: person.lastName)) has resident state \(String(describing: fo?.name)) image: \(String(describing: fo?.imageName)).")
+            DDLogDebug("\(person.firstName ?? "*") \(person.lastName ?? "*") has resident state '\(fo?.name ?? "*")', image name '\(fo?.imageName ?? "*")'.")
         }
         catch {
             DDLogError(error)

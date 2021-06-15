@@ -10,7 +10,6 @@ import StoreKit
 import MessageUI
 
 struct AboutList: View {
-    
     var body: some View {
         if UIDevice.current.localizedModel == "iPad" {
             NavigationView {
@@ -24,6 +23,8 @@ struct AboutList: View {
 }
 
 fileprivate struct AboutListing: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    @State private var showingActionSheet = false
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
     
@@ -74,6 +75,23 @@ fileprivate struct AboutListing: View {
                     }
                 }
                 .isDetailLink(true)
+            }
+            Section(header: UtilitiesSection()) {
+                HStack {
+                    Image(systemName: "square.and.arrow.down.fill")
+                    Button("Resync Data") {
+                        self.showingActionSheet = true
+                    }
+                    .actionSheet(isPresented: $showingActionSheet) {
+                        ActionSheet(title: Text("Resync Data"), message: Text("Select an action."), buttons: [
+                            .default(Text("Resync founders with states.")) {
+                                StatesImporter.shared.ConfirmStatesAreImported(inContext: viewContext)
+                                PersonImporter.shared.sync_states(inContext: viewContext)
+                            },
+                            .cancel()
+                        ])
+                    }
+                }
             }
         }
         .listStyle(GroupedListStyle())

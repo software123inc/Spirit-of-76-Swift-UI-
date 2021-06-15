@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C76A07B126744C4200042C42 /* StatePlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B026744C4200042C42 /* StatePlist.swift */; };
+		C720E18026791C9A00AB5815 /* UtilitiesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720E17F26791C9A00AB5815 /* UtilitiesSection.swift */; };
+		C76A07B126744C4200042C42 /* StatesPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B026744C4200042C42 /* StatesPlist.swift */; };
 		C76A07B326744F4800042C42 /* TopicPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B226744F4800042C42 /* TopicPlist.swift */; };
 		C76A07B52674532800042C42 /* WritingsPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B42674532800042C42 /* WritingsPlist.swift */; };
 		C76A07B72674545800042C42 /* CityPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B62674545800042C42 /* CityPlist.swift */; };
@@ -78,7 +79,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C76A07B026744C4200042C42 /* StatePlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePlist.swift; sourceTree = "<group>"; };
+		C720E17F26791C9A00AB5815 /* UtilitiesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesSection.swift; sourceTree = "<group>"; };
+		C76A07B026744C4200042C42 /* StatesPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesPlist.swift; sourceTree = "<group>"; };
 		C76A07B226744F4800042C42 /* TopicPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicPlist.swift; sourceTree = "<group>"; };
 		C76A07B42674532800042C42 /* WritingsPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingsPlist.swift; sourceTree = "<group>"; };
 		C76A07B62674545800042C42 /* CityPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPlist.swift; sourceTree = "<group>"; };
@@ -207,7 +209,7 @@
 				C76A07B82674555E00042C42 /* PersonPlist.swift */,
 				C76A07BE26745FF600042C42 /* ProfessionPlist.swift */,
 				C76A07C2267461AC00042C42 /* QuotePlist.swift */,
-				C76A07B026744C4200042C42 /* StatePlist.swift */,
+				C76A07B026744C4200042C42 /* StatesPlist.swift */,
 				C76A07B226744F4800042C42 /* TopicPlist.swift */,
 				C76A07B42674532800042C42 /* WritingsPlist.swift */,
 			);
@@ -285,6 +287,7 @@
 				C7A24E6626754E8C000D1952 /* AboutTabItem.swift */,
 				C7CB9D38267697C0009F929A /* ApplicationSection.swift */,
 				C7CB9D3A2676982E009F929A /* FeedbackSection.swift */,
+				C720E17F26791C9A00AB5815 /* UtilitiesSection.swift */,
 			);
 			path = About;
 			sourceTree = "<group>";
@@ -485,7 +488,7 @@
 				C7CB9D3126756356009F929A /* TopicsRow.swift in Sources */,
 				C7CB9D502676C939009F929A /* DocumentsList.swift in Sources */,
 				C7A24E6426754E52000D1952 /* FavoritesTabItem.swift in Sources */,
-				C76A07B126744C4200042C42 /* StatePlist.swift in Sources */,
+				C76A07B126744C4200042C42 /* StatesPlist.swift in Sources */,
 				C7CB9D542676D3DC009F929A /* USConstitution.swift in Sources */,
 				C7E2DF2726730B6300D098FE /* Persistence.swift in Sources */,
 				C76A07B72674545800042C42 /* CityPlist.swift in Sources */,
@@ -502,6 +505,7 @@
 				C7A24E562675420E000D1952 /* FounderRow.swift in Sources */,
 				C76A07C1267460A300042C42 /* AuthorshipPlist.swift in Sources */,
 				C7A24E542675416D000D1952 /* FoundersList.swift in Sources */,
+				C720E18026791C9A00AB5815 /* UtilitiesSection.swift in Sources */,
 				C7CB9D452676AFAA009F929A /* SKStoreReviewController+Enhancements.swift in Sources */,
 				C770FDB12674273800BAB970 /* UserDefaultKeys.swift in Sources */,
 				C7CB9D3326756366009F929A /* TopicsDetail.swift in Sources */,
@@ -649,7 +653,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Spirit of 76/Preview Content\"";
 				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_PREVIEWS = YES;
@@ -659,7 +663,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.0;
+				MARKETING_VERSION = 5.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.askeduserve.SpritOf76;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -673,7 +677,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Spirit of 76/Preview Content\"";
 				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_PREVIEWS = YES;
@@ -683,7 +687,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.0;
+				MARKETING_VERSION = 5.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.askeduserve.SpritOf76;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
