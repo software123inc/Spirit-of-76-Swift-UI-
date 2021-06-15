@@ -216,7 +216,7 @@ extension PersonImporter {
             
             let fo = results.first
             fo?.addToResidentPersons(person)
-            DDLogDebug("\(person.firstName ?? "*") \(person.lastName ?? "*") has resident state '\(fo?.name ?? "*")', image name '\(fo?.imageName ?? "*")'.")
+            DDLogVerbose("\(person.firstName ?? "*") \(person.lastName ?? "*") has resident state '\(fo?.name ?? "*")', image name '\(fo?.imageName ?? "*")'.")
         }
         catch {
             DDLogError(error)
