@@ -91,10 +91,10 @@ extension StatesImporter {
             let results = try performingContext.fetch(fr)
             
             guard results.isEmpty else {
-                DDLogDebug("It appears that states have been imported. \(results.count) records found.")
+                DDLogInfo("It appears that states have been imported. \(results.count) records found.")
                 return
             }
-            DDLogDebug("We must re-import states.")
+            DDLogInfo("We must re-import states.")
             UserDefaults.standard.setValue(false, forKey: udKey)
             StatesImporter.shared.doImport_v1(inContext: performingContext)
         }
