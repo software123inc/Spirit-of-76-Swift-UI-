@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71AC8482DBFD5A000A65136 /* MarkdownText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AC8472DBFD5A000A65136 /* MarkdownText.swift */; };
 		C720E18026791C9A00AB5815 /* UtilitiesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720E17F26791C9A00AB5815 /* UtilitiesSection.swift */; };
 		C76A07B126744C4200042C42 /* StatesPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B026744C4200042C42 /* StatesPlist.swift */; };
 		C76A07B326744F4800042C42 /* TopicPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A07B226744F4800042C42 /* TopicPlist.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C71AC8472DBFD5A000A65136 /* MarkdownText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownText.swift; sourceTree = "<group>"; };
 		C720E17F26791C9A00AB5815 /* UtilitiesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesSection.swift; sourceTree = "<group>"; };
 		C76A07B026744C4200042C42 /* StatesPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesPlist.swift; sourceTree = "<group>"; };
 		C76A07B226744F4800042C42 /* TopicPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicPlist.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		C770FD962673DCAD00BAB970 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				C71AC8472DBFD5A000A65136 /* MarkdownText.swift */,
 				C770FD992673DD8100BAB970 /* Constants.swift */,
 				C770FDAC267424E600BAB970 /* PListImporter.swift */,
 				C770FDAE267425E300BAB970 /* PListSeeder.swift */,
@@ -413,8 +416,9 @@
 		C7E2DF1226730B6000D098FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					C7E2DF1926730B6000D098FE = {
 						CreatedOnToolsVersion = 12.5;
@@ -511,6 +515,7 @@
 				C7CB9D3326756366009F929A /* TopicsDetail.swift in Sources */,
 				C7CB9D39267697C0009F929A /* ApplicationSection.swift in Sources */,
 				C76A07B326744F4800042C42 /* TopicPlist.swift in Sources */,
+				C71AC8482DBFD5A000A65136 /* MarkdownText.swift in Sources */,
 				C770FDAD267424E600BAB970 /* PListImporter.swift in Sources */,
 				C7E2DF2026730B6000D098FE /* ContentView.swift in Sources */,
 				C7E2DF1E26730B6000D098FE /* Spirit_of_76App.swift in Sources */,
@@ -535,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -566,8 +572,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -596,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -627,8 +636,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -653,17 +664,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spirit of 76/Preview Content\"";
-				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Spirit of 76/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.0.2;
+				MARKETING_VERSION = 6.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.askeduserve.SpritOf76;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -677,17 +688,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spirit of 76/Preview Content\"";
-				DEVELOPMENT_TEAM = LT2J4Q2FPW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Spirit of 76/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.0.2;
+				MARKETING_VERSION = 6.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.askeduserve.SpritOf76;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

@@ -11,6 +11,7 @@ struct CreditsView: View {
     var body: some View {
         VStack {
             K.Images.fife_and_drum
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             Text("Books")
                 .font(.headline)
             Text("Lives of the Signers of the Declaration of Independence")

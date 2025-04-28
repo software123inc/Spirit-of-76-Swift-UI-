@@ -11,6 +11,7 @@ struct AppInfoView: View {
     var body: some View {
         VStack {
             K.Images.fife_and_drum
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             Text("Spirit of '76")
             Text("🇺🇸\n🇺🇸")
             Text("Copyright 2020 by EduServe, Inc. All Rights Reserved.")

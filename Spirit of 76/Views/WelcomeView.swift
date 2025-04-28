@@ -11,6 +11,7 @@ struct WelcomeView: View {
     var body: some View {
         VStack {
             K.Images.fife_and_drum
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             Text("Welcome to Spirit of 76!")
                 .font(.largeTitle)
             
